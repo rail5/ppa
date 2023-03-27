@@ -1,1 +1,1 @@
-deb [signed-by=/etc/apt/trusted.gpg.d/rail5.gpg] https://rail5.org/ppa ./
+deb [signed-by=/etc/apt/trusted.gpg.d/rail5.gpg] https://rail5.org/ppa/debian ./
