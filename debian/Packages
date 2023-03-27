@@ -1,0 +1,79 @@
+Package: bookthief
+Version: 11.1
+Architecture: amd64
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 3255
+Depends: liesel (>= 10.1), libc6, libgtk2.0-0, libx11-6, libglib2.0-0, libpango-1.0-0, libcairo2, libatk1.0-0, libpangocairo-1.0-0, libfontconfig1, libxrender1, libxinerama1, libxi6, libxrandr2, libxcursor1, libxcomposite1, libxdamage1, libxfixes3, libxext6, libxcb1, libpangoft2-1.0-0, libpcre3, libfribidi0, libthai0, libharfbuzz0b, libpixman-1-0, libfreetype6, libpng16-16, libxcb-shm0, libxcb-render0, zlib1g, libmount1, libexpat1, libuuid1, libxau6, libxdmcp6, libdatrie1, libgraphite2-3, libblkid1, libbsd0
+Filename: ./bookthief_11.1_amd64.deb
+Size: 857232
+MD5sum: c7d03d03880faf2fb85fb265a3572b3f
+SHA1: 9c98876bdee0078bdd666221ab20c302822099ad
+SHA256: 45bc255834feae6163243f172819a36d8f904fcab464639e8c92bb8590c6ca7e
+Section: utils
+Priority: optional
+Description: GUI Front-end for Liesel
+ Prepares PDFs to be home-printed
+ in "pamphlet" style
+
+Package: liesel
+Version: 11.3
+Architecture: amd64
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 111
+Depends: libbsd0, libc6, libxcb1, liblzma5, libuuid1, libexpat1, libstdc++6, libgomp1, libzstd1, libxml2, libbz2-1.0, libx11-6, libxext6, libwmf0.2-7, libpng16-16, libtiff5, liblcms2-2, libwebp6, libwebpmux3, libjbig0, zlib1g, libjpeg-turbo8 | libjpeg62-turbo, libfontconfig1, libfreetype6, libpoppler-cpp0v5, libgraphicsmagick-q16-3, libgraphicsmagick++-q16-12, libhpdf-2.3.0
+Filename: ./liesel_11.3_amd64.deb
+Size: 40780
+MD5sum: 7bd0b14abff85dd4b7f34a00c4b1481d
+SHA1: c9b163c55a01d51a14fb8fcd1cb763ea2d8dcab6
+SHA256: a195926aebbe5d1226a3a122aede1b5ad1fb6d12fa9134e7abfa5683288e1ba2
+Section: utils
+Priority: optional
+Description: Command-line core of BookThief
+ Prepares PDFs to be home-printed
+ in "pamphlet" style
+
+Package: ocrshot
+Version: 1.0
+Architecture: amd64
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 14
+Depends: mate-utils, xclip, tesseract-ocr, graphicsmagick-imagemagick-compat
+Filename: ./ocrshot_1.0_amd64.deb
+Size: 2952
+MD5sum: 166c5cf1ac920c63da922f1e0933d5e8
+SHA1: 9456a8360cfc81a03d6da02b9b511100c529cd68
+SHA256: 1fc58132935d158c47ba7afe991a341a7937383687e8804b719ed74a07f1d33f
+Section: utils
+Priority: optional
+Description: Copies text to clipboard from screenshot via OCR
+
+Package: polonius
+Version: 0.1
+Architecture: amd64
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 96
+Depends: libstdc++6, libgcc-s1, libc6
+Filename: ./polonius_0.1_amd64.deb
+Size: 28156
+MD5sum: 6c0a32b1cc7b273d5fca0a016fedb7d9
+SHA1: e69dfbadfdcd6a459438b31c869710a16e50b735
+SHA256: e85ed6682f91baee3f66c8ae40e81f1ec6d003d12ff05547dfbf26a1f77aec8d
+Section: utils
+Priority: optional
+Description: A uniquely memory-efficient text editor
+
+Package: randomtext
+Version: 1.0
+Architecture: amd64
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 13
+Depends: coreutils
+Filename: ./randomtext_1.0_amd64.deb
+Size: 1992
+MD5sum: e04bcf7ea6d03cfb86cb543614709110
+SHA1: 270d4bceea5fee113793ef214ece0e99ebc63a4f
+SHA256: 8005108ca958e92208a6d13a9a70109602756c6d40eb36741b083d6cf05851eb
+Section: utils
+Priority: optional
+Description: Converts output from /dev/urandom to printable ASCII
+
