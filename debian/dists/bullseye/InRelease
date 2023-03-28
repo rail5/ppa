@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: rail5
+Label: rail5
+Codename: bullseye
+Date: Tue, 28 Mar 2023 05:03:30 UTC
+Architectures: amd64
+Components: main
+Description: Apt repository for rail5
+MD5Sum:
+ e17e425747eb5175343f83945af64710 3252 main/binary-amd64/Packages
+ ac60072470b9623c27d19dd44ec5d9c9 1427 main/binary-amd64/Packages.gz
+ 8f2726bc4f5f75e35c310db5af00af10 101 main/binary-amd64/Release
+ f98145bb375678fbbd5872c7121f57b5 4068 main/source/Sources
+ 6ac7f52239bac738274ea0c89762d7ad 1515 main/source/Sources.gz
+ 059a5162546fa72fce50d8ceb7911b6f 102 main/source/Release
+SHA1:
+ 1dc7ecd9b3ef63aedd7f969eca342c706fc46c0e 3252 main/binary-amd64/Packages
+ e6cfd1fdb545e4d151981f3a2dd243c54eb05ae7 1427 main/binary-amd64/Packages.gz
+ a484dbeede64ef9fadafee327b72fa8805eff15e 101 main/binary-amd64/Release
+ 5de716a845e612bdf1e75ddf4a73968998609627 4068 main/source/Sources
+ 4fba0fd37b63f5d82f91a69f69323ad3f309dcb2 1515 main/source/Sources.gz
+ 9778cc2619c93da228ebca99ba4fa752316ea564 102 main/source/Release
+SHA256:
+ 5551a3c0760e1c3a8c97898d2fca8f3869d64414de30ca0ad815cbdbfcf9d993 3252 main/binary-amd64/Packages
+ c4316e9131f0cb2a3846b4c03ca285a14c9a8636067ffae97ee06d69eb993924 1427 main/binary-amd64/Packages.gz
+ 947013d6001b982399ef3ea5b2116766477a91f7002eb1971c44f878b3565159 101 main/binary-amd64/Release
+ 14a3adbc489a1762e5d9b987138449aa5b53c4c6d5d747bd2ae99f974c0b52d2 4068 main/source/Sources
+ b729563b19e44631cdbbcfc5e0fb048fbc80ed1bb8686e968cf065fabcb46298 1515 main/source/Sources.gz
+ f060daf69b254a859cc7ef4f93af38121a7e91f9cb91bce7fa9e1944d5a0870e 102 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEE7RVui8b5FjZnaneqoMtXCrZikVkFAmQidSMACgkQoMtXCrZi
+kVmFiwwAhWX9lg9ivUC2wfwa46je/JxQRXu2j7MSEjqbrt+pgHnVoyIOnx7qZLhG
+kqbp7gsyz5UawCgnBougnMWQc2kPLSUKSgnl34H6++vcT7SLL3C/7ZsYUfvMlXRw
+kyQxWCAnNP+lhvPcPjfxHdLy4uohU3hNMZCHJGlzawFSrELWSUon4fxa7Ga8dxas
+rFEPNZ/OUuMOZOFP8VS+KNB9Q7aiG9yKhonxCjD3O1xkXgYXCB9vpcaOZH4XTgA1
+9IX8KWtKJzG/lh/VMCsTsaAvbsFeFIkvyjt8gUEFGGQB3bRH3xUJmqcvB1DrI+fX
+PjPz+30OxEiD/NT/jCQZO/Vij4W6f4ngumSs27NMEjL4oOhO+/94nGushKhFKyom
+9bu0fQhbjTh3/fZ3Ce5ZH4nQiYipn/r7rzPf7rd6H7joPHXCAtDvP0IwyLdlvXIN
+R7vxhmY/dXbH5/rHoyMj26md0kfOG24qoCa9PoWs4hLNvdhuY21zt1maEK0gqN6b
+GiIkInGm
+=BNZF
+-----END PGP SIGNATURE-----
