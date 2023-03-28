@@ -9,7 +9,7 @@ This repository contains the following packages:
   - ocrshot
   - randomtext
 
-You can configure your machine to use this repository as follows:
+You can configure Debian to use this repository as follows:
 
 ```
 curl -s --compressed "https://deb.rail5.org/rail5.gpg" | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/rail5.gpg >/dev/null
