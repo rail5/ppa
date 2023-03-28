@@ -1,0 +1,2 @@
+deb https://deb.rail5.org/debian bullseye main
+deb-src https://deb.rail5.org/debian bullseye main

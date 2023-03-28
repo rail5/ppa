@@ -1,6 +1,0 @@
-Types: deb
-URIs: https://deb.rail5.org/debian/
-Suites: bullseye
-Components: main
-Architectures: amd64
-Signed-By: /etc/apt/trusted.gpg.d/rail5.gpg
