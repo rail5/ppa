@@ -79,7 +79,7 @@ function recursively_create_gnu_index() {
 	
 	for i in $(ls); do
 		if [[ -d $startdir$i ]]; then
-			recursively_create_gnu_index "$startdir$i/" "$domain" "$startdir"
+			recursively_create_gnu_index "$startdir$i/" "$domain" "$relpath"
 			continue
 		fi
 	done
