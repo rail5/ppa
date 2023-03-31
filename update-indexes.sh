@@ -3,10 +3,10 @@
 function create_gnu_index ()
 {
     # call it right or die
-    [[ $# != 3 ]] && echo "bad args. do: $FUNCNAME '/DOCUMENT_ROOT/' '/' 'gnu.askapache.com'" && exit 2
+    [[ $# != 4 ]] && echo "bad args. do: $FUNCNAME '/DOCUMENT_ROOT/mainsubdir' '/files/things/' 'gnu.askapache.com' '/mainsubdir/files/things'" && exit 2
   
     # D is the doc_root containing the site
-    local L= D="$1" SUBDIR="$2" DOMAIN="$3" F=
+    local L= D="$1" SUBDIR="$2" DOMAIN="$3" URLPATH="$4" F=
 
     # The index.html file to create
     F="${D}index.html"
@@ -28,8 +28,8 @@ function create_gnu_index ()
 
         # print the html header
         echo '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">';
-        echo "<html><head><title>Index of http://${DOMAIN}${SUBDIR}</title></head>";
-        echo "<body><h1 id="Index_SUBDIR">Index of ${SUBDIR} <a class="sl" href="#Index_SUBDIR"></a></h1><pre>      Name                                        Last modified      Size";
+        echo "<html><head><title>Index of http://${DOMAIN}${URLPATH}</title></head>";
+        echo "<body><h1 id="Index_SUBDIR">Index of ${URLPATH} <a class="sl" href="#Index_SUBDIR"></a></h1><pre>      Name                                        Last modified      Size";
 
         # start of content output
         (
@@ -64,11 +64,13 @@ function create_gnu_index ()
 function recursively_create_gnu_index() {
 	STOREIFS="$IFS"
 
-	local startdir="$1" domain="$2"
+	local startdir="$1" domain="$2" relpath=""
 	
-	echo "Indexing $startdir"
+	relpath="${startdir/"$initdir"/""}"
 	
-	create_gnu_index "$startdir" "/" "$domain"
+	echo "Indexing $relpath"
+	
+	create_gnu_index "$startdir" "/" "$domain" "$relpath"
 	
 	cd $startdir
 	
