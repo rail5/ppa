@@ -28,7 +28,7 @@ function create_gnu_index ()
 
         # print the html header
         echo '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">';
-        echo "<html><head><title>Index of http://${DOMAIN}${URLPATH}</title></head>";
+        echo "<html><head><title>Index of https://${DOMAIN}${URLPATH}</title></head>";
         echo "<body><h1 id="Index_SUBDIR">Index of ${URLPATH} <a class="sl" href="#Index_SUBDIR"></a></h1><pre>      Name                                        Last modified      Size";
         echo "      <a href=\"${PARENTDIR}\">Parent Directory</a>";
 
