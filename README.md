@@ -1,13 +1,13 @@
-# Package repository
+# deb.rail5.org
 A Debian repository for my packages
 
 This repository contains the following packages:
 
-  - liesel
-  - bookthief
-  - polonius
-  - ocrshot
-  - randomtext
+  - [liesel](https://github.com/rail5/liesel)
+  - [bookthief](https://github.com/rail5/bookthief)
+  - [polonius](https://github.com/rail5/polonius)
+  - [ocrshot](https://github.com/rail5/mate-ocrshot)
+  - [randomtext](https://github.com/rail5/randomtext)
 
 You can configure Debian to use this repository as follows:
 
