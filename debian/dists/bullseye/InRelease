@@ -4,42 +4,51 @@ Hash: SHA512
 Origin: rail5
 Label: rail5
 Codename: bullseye
-Date: Tue, 28 Mar 2023 23:15:35 UTC
-Architectures: amd64
+Date: Sat, 01 Apr 2023 01:46:25 UTC
+Architectures: amd64 i386
 Components: main
 Description: Apt repository for rail5
 MD5Sum:
  0716dc7660f5506fe20652adfc8cbf3d 3256 main/binary-amd64/Packages
  eeab4fe67639652f06356e98e62cd5dc 1429 main/binary-amd64/Packages.gz
  8f2726bc4f5f75e35c310db5af00af10 101 main/binary-amd64/Release
- 49026e204dd1d5fa96b6a7cf469b7377 4082 main/source/Sources
- 6c01f419c044ef7a1b0257b6a5658413 1520 main/source/Sources.gz
+ 7a98dd80ce54ee5cf1305a6b9ca13e8d 844 main/binary-i386/Packages
+ 949c5ab8e73f673a7bd2ebe9ac9af789 553 main/binary-i386/Packages.gz
+ 919862def8df3066b50728f3b1c693bb 100 main/binary-i386/Release
+ 425efb533633f2fa3e5822f9d1b58f2c 4082 main/source/Sources
+ 5ca2c7d0bf9e7db60c1fb223fabac450 1520 main/source/Sources.gz
  059a5162546fa72fce50d8ceb7911b6f 102 main/source/Release
 SHA1:
  e01b4d036a9c547232a3de37463605632d730bcc 3256 main/binary-amd64/Packages
  a91779f8f1764a41fe29be2f2510d05989164253 1429 main/binary-amd64/Packages.gz
  a484dbeede64ef9fadafee327b72fa8805eff15e 101 main/binary-amd64/Release
- e78e7699920535009e21c46db1d79381664d1af7 4082 main/source/Sources
- b93c0f456854e49390acfab2d26ea5106b7fb906 1520 main/source/Sources.gz
+ cec2d59701a752108e30a0db2a72f353c5bded9a 844 main/binary-i386/Packages
+ 95f5ae9fc3bc92acd23cfe4baf43b88a664f3d3d 553 main/binary-i386/Packages.gz
+ aa1435362c5ddc779229bc8e7937169626e7f23b 100 main/binary-i386/Release
+ 5cfd34efe82d7d5a4ae43a8230fb1388051d9bc7 4082 main/source/Sources
+ 70be1ea4892799d38592d5ee4fccf511ade4bcbe 1520 main/source/Sources.gz
  9778cc2619c93da228ebca99ba4fa752316ea564 102 main/source/Release
 SHA256:
  8c0d7d3267698174bac79eb3bb4bc5a5dd2e886b625e723e04c53d677d2de3a7 3256 main/binary-amd64/Packages
  33c92a0d0ec1c5aeb78165b449e2910d7c0edd1df912587efe5d76dad7e93d7f 1429 main/binary-amd64/Packages.gz
  947013d6001b982399ef3ea5b2116766477a91f7002eb1971c44f878b3565159 101 main/binary-amd64/Release
- 0979524c8131f70ca1edee794b3f5ef13e0546a727e3fe1ba55fe20fbe34421c 4082 main/source/Sources
- 991e4517c31b6afd9bec33ee3408b8fecc095d6d028c69290c73c06c88cb1acb 1520 main/source/Sources.gz
+ 02f247602c3d947780c17208e78849080ae432cb1fa93fbcf8b07f07a17641ad 844 main/binary-i386/Packages
+ 1c8af6a22ddd37a256c7bb73d80fbbfb0ed18bf5a311057ba00a15bb3d0e6695 553 main/binary-i386/Packages.gz
+ 36fb34e1ad9d8c84d0b7fd203bab2e1c18bb70d2645e6cd04c4e60d55033c689 100 main/binary-i386/Release
+ f92f7160dccedac18376a45860fc52ce802db4307127a9388c64bea10c20b6ff 4082 main/source/Sources
+ 46f40f169c004c95b15c534d52972736cf9b44bf69b128c3329125e8fd7690fe 1520 main/source/Sources.gz
  f060daf69b254a859cc7ef4f93af38121a7e91f9cb91bce7fa9e1944d5a0870e 102 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEE7RVui8b5FjZnaneqoMtXCrZikVkFAmQjdRcACgkQoMtXCrZi
-kVkZZgv+NF/IWIcwGUVTZ++gkKtffJH8xSCOQ++3yQs9mkgOJVDKFGtniRQee6nt
-yl+PKr7OMsL+6K6mzqDjoXZ4f559V3J288mU1Z5QdMIOyr61NhbafTK78ULhVnz/
-BvDDGGS4D57T3E78CSixWF5qJkSU8kSMBnROZzGNSnmI8qWf472M7eSysRidIu1z
-ZnFnPChWSGLUuNJbaRYHwV3ZZaZQwTvKvz5e5Sx2GSnxg77MmQuOtvQG1yTuRXF0
-W523deLPUms6iwDNdy8wFWjlRftyjJunt09SJlpqAGXIVdx1OeWf3J0Em5ub9ghO
-+h6IUK4Prtz3yRKmqppecUgu+cf1gWuhEMA304ckTX+Y9gZ5ItG6akGGCMgvoQnk
-Q64mph4hNecM39fFIqfvTa9gNAeoTXunO6NPm+a/sqXkmo8rYUikq3Hu+31RGTKL
-dXnbve4/SwnAu2Ere60st336PCyco/6eUSdID3A7DGqmu9B30Eei/VjbWzTnTm1w
-zShe+fOE
-=e9zu
+iQGzBAEBCgAdFiEE7RVui8b5FjZnaneqoMtXCrZikVkFAmQnjPEACgkQoMtXCrZi
+kVkwXQv9G//5kYW0/wKsat8IL8pAx1V4+VW1GnIXGnS5KxpxwyF0p0P2Z4LegPHp
+PdpARMscGnPw18OXKhapnGZdjjiNGHZA43bQgFsoYn5C61/ZC6/OXNUaN3qX5e2D
+kgWUcED+i5g7FmOZsC8JdfqIm3+QfapJOcD6/OdzZuZ8QrCmhAT7RSDaNJgZGAzN
+gK/QONtuwCVMKrJ/LvcdZvf00POCQ2s9LQ0sUw8hnW7vNI8w1ScEVhClpWOgbs22
+IrMW2fTVidr9TzIL4McFo/ed/a8DfLH5FrNCo0WCeppSxSvoFNUs6+v1tQhgAw/C
+z9UiA5I1sKsbO/2HXGh+wpmDMxGC1+4jGX1a5PcPxmi3U5GgYxDKTH+1yrjyM8oW
+UlBnPo3sQqDi8x1wBgO1yHEK1CZ+0VN6GZdQciC7Kbxc6xwGbstTv6jySjc/LUX1
+mpy9/7Nz+6v/qofTP5n4L1Mfm3BbqeofKihLmjI8prQAIUWZb8KDyfnahheHK6+8
+jc5gugLA
+=sOLZ
 -----END PGP SIGNATURE-----
