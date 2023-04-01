@@ -1,3 +1,20 @@
+Package: liesel
+Version: 11.3.2
+Architecture: amd64
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 112
+Depends: libbsd0, libc6, libxcb1, liblzma5, libuuid1, libexpat1, libstdc++6, libgomp1, libzstd1, libxml2, libbz2-1.0, libx11-6, libxext6, libwmf0.2-7, libpng16-16, libtiff5, liblcms2-2, libwebp6, libwebpmux3, libjbig0, zlib1g, libjpeg-turbo8 | libjpeg62-turbo, libfontconfig1, libfreetype6, libpoppler-cpp0v5, libgraphicsmagick-q16-3, libgraphicsmagick++-q16-12, libhpdf-2.3.0
+Priority: optional
+Section: utils
+Filename: pool/main/l/liesel/liesel_11.3.2_amd64.deb
+Size: 40856
+SHA256: 558eeed850bac16139660ec632b905b3959b6fc1caa603e9431e1a2e6227ac2d
+SHA1: 97f8735c430549bd03e623f4649392ff98a354fa
+MD5sum: 1e9e7e90415d63a4f6785b95b8247827
+Description: Command-line core of BookThief
+ Prepares PDFs to be home-printed
+ in "pamphlet" style
+
 Package: ocrshot
 Version: 1.0
 Architecture: amd64
