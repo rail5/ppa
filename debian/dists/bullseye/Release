@@ -1,8 +1,8 @@
 Origin: rail5
 Label: rail5
 Codename: bullseye
-Date: Sat, 01 Apr 2023 02:11:16 UTC
-Architectures: amd64 i386
+Date: Sun, 02 Apr 2023 02:39:00 UTC
+Architectures: amd64 i386 arm64
 Components: main
 Description: Apt repository for rail5
 MD5Sum:
@@ -12,6 +12,9 @@ MD5Sum:
  7a0b55fb6c54926f628d3a17eed38476 1805 main/binary-i386/Packages
  d9ca00daa8d598bb49f87fdf31ed32b3 886 main/binary-i386/Packages.gz
  919862def8df3066b50728f3b1c693bb 100 main/binary-i386/Release
+ 2fc33801874a5e7cb069811d2d1f7d45 1808 main/binary-arm64/Packages
+ 528ca982a0f5f1a94e6334350ffe24c7 890 main/binary-arm64/Packages.gz
+ 45e67a53bc17f624d9e8672e096ebd44 101 main/binary-arm64/Release
  71645366b69494861f17e3ace351f93e 4079 main/source/Sources
  b89d0837291e9109bc22f00a0b77b2b2 1514 main/source/Sources.gz
  059a5162546fa72fce50d8ceb7911b6f 102 main/source/Release
@@ -22,6 +25,9 @@ SHA1:
  e962473053bf52d3ddd825cefb0db80fe2bf58d9 1805 main/binary-i386/Packages
  8b54dba2a2e205b4df323c96df8ed375188e48cb 886 main/binary-i386/Packages.gz
  aa1435362c5ddc779229bc8e7937169626e7f23b 100 main/binary-i386/Release
+ b5c991d1a9326db292eaa63f1983593437357147 1808 main/binary-arm64/Packages
+ 93e39f906ef6cd88355b33042983707a3d074d19 890 main/binary-arm64/Packages.gz
+ b6b417d78c23c05186b577546a338848d98d2f6d 101 main/binary-arm64/Release
  3db6688a02b3f6a2e93f2052b0dd67e052b11816 4079 main/source/Sources
  75d94673724558c9f198e063eb0157e8062cab53 1514 main/source/Sources.gz
  9778cc2619c93da228ebca99ba4fa752316ea564 102 main/source/Release
@@ -32,6 +38,9 @@ SHA256:
  251c5db69d62e92eafca723bdaa807a6e3e1534b799691be9df1c9a5fa8c051f 1805 main/binary-i386/Packages
  78663a27bac02e93f74f2f13e1f630f1bc195fd814567d104c5d99c326724e5c 886 main/binary-i386/Packages.gz
  36fb34e1ad9d8c84d0b7fd203bab2e1c18bb70d2645e6cd04c4e60d55033c689 100 main/binary-i386/Release
+ 55625c0f3466737e1c5e39bcc6e44379a6edfd5af56374044aa2cbc5a2976fc7 1808 main/binary-arm64/Packages
+ 93066b6badd525799352394c524c7ee7add52406e3ecd946e5e7cb918f03de59 890 main/binary-arm64/Packages.gz
+ a91609db2d553044a6b2de271354f9b6559b6192a56df8775d1670d80eac68cb 101 main/binary-arm64/Release
  c744507697e494710e022b6cce9512c83d366c114b9a31e79b02527053e70bf1 4079 main/source/Sources
  591cd0e22652903ec3841f7db569b06379e7a16f8bc1c56c124d5720c396284a 1514 main/source/Sources.gz
  f060daf69b254a859cc7ef4f93af38121a7e91f9cb91bce7fa9e1944d5a0870e 102 main/source/Release
