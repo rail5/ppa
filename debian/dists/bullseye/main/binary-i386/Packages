@@ -32,3 +32,33 @@ Description: Command-line core of BookThief
  Prepares PDFs to be home-printed
  in "pamphlet" style
 
+Package: ocrshot
+Version: 1.1
+Architecture: all
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 14
+Depends: mate-utils, xclip, tesseract-ocr, graphicsmagick-imagemagick-compat
+Priority: optional
+Section: utils
+Filename: pool/main/o/ocrshot/ocrshot_1.1_all.deb
+Size: 3036
+SHA256: 6a05f48d2aab0205971032a708b5bd54e60612be081299201e82f78805fc264a
+SHA1: 248461420e6428bb29d84723731dd48010dcf561
+MD5sum: ccf825dc160a0744d877a2357b980db8
+Description: Copies text to clipboard from screenshot via OCR
+
+Package: randomtext
+Version: 1.1
+Architecture: all
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 13
+Depends: coreutils
+Priority: optional
+Section: utils
+Filename: pool/main/r/randomtext/randomtext_1.1_all.deb
+Size: 2064
+SHA256: fba9ee0c071a5de63077b1b79fb4f1a0f4d347351b8d1a54df2e329d11d66e1c
+SHA1: 9f15894520a9a0a3382c24a33cb4f6dd312f12bd
+MD5sum: 4ed3a4011422724de2faafe9b52773d9
+Description: Converts output from /dev/urandom to printable ASCII
+
