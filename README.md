@@ -1,7 +1,7 @@
 # deb.rail5.org
 A Debian repository for my packages
 
-This repository contains the following packages:
+This repository contains the following packages for **amd64**, **i386**, and **arm64** architectures:
 
   - [liesel](https://github.com/rail5/liesel)
   - [bookthief](https://github.com/rail5/bookthief)
