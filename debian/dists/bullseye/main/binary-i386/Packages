@@ -33,19 +33,20 @@ Description: Command-line core of BookThief
  in "pamphlet" style
 
 Package: ocrshot
-Version: 1.1
+Version: 1.2
 Architecture: all
 Maintainer: rail5 <andrew@rail5.org>
 Installed-Size: 14
-Depends: mate-utils, xclip, tesseract-ocr, graphicsmagick-imagemagick-compat
+Depends: maim, xclip, tesseract-ocr, graphicsmagick-imagemagick-compat
 Priority: optional
 Section: utils
-Filename: pool/main/o/ocrshot/ocrshot_1.1_all.deb
-Size: 3036
-SHA256: 6a05f48d2aab0205971032a708b5bd54e60612be081299201e82f78805fc264a
-SHA1: 248461420e6428bb29d84723731dd48010dcf561
-MD5sum: ccf825dc160a0744d877a2357b980db8
-Description: Copies text to clipboard from screenshot via OCR
+Filename: pool/main/o/ocrshot/ocrshot_1.2_all.deb
+Size: 3152
+SHA256: 54c9e680bd6fcf4745cc391e636f2687dc11e96b19c8199852a7e304b5b2aa0a
+SHA1: abbe1510dd3d9c951eed72d054fbdaa7bfc6d8ed
+MD5sum: 0516f7c4d8a27870fbd09c787c56e4b3
+Description: Copies text to clipboard from screenshot via Optical Character Recognition
+  ocrshot allows you to copy-and-paste text from videos, pictures, etc
 
 Package: polonius
 Version: 0.2
