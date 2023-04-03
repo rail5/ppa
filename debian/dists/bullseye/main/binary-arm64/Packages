@@ -16,18 +16,18 @@ Description: GUI Front-end for Liesel
  in "pamphlet" style
 
 Package: liesel
-Version: 11.3.2
+Version: 11.3.3
 Architecture: arm64
 Maintainer: rail5 <andrew@rail5.org>
 Installed-Size: 95
 Depends: libbsd0, libc6, libxcb1, liblzma5, libuuid1, libexpat1, libstdc++6, libgomp1, libzstd1, libxml2, libbz2-1.0, libx11-6, libxext6, libwmf0.2-7, libpng16-16, libtiff5, liblcms2-2, libwebp6, libwebpmux3, libjbig0, zlib1g, libjpeg-turbo8 | libjpeg62-turbo, libfontconfig1, libfreetype6, libpoppler-cpp0v5, libgraphicsmagick-q16-3, libgraphicsmagick++-q16-12, libhpdf-2.3.0
 Priority: optional
 Section: utils
-Filename: pool/main/l/liesel/liesel_11.3.2_arm64.deb
-Size: 36660
-SHA256: 09a5b347a658e5d6973c6a84600b4fe2c79729bb3a5679e700c347db7d20fc85
-SHA1: 272b3cf61f85854d31dc963a0b9e2e138b64b410
-MD5sum: e43bd0acd6dbef889f1f98a29de8b180
+Filename: pool/main/l/liesel/liesel_11.3.3_arm64.deb
+Size: 36812
+SHA256: b55df023d9e666c7b4b219ff4ab0a64fad0e2c232bd9f620592a6febef67e738
+SHA1: c1d16626f4c1fbef894b5fd683e4f3d327015dfe
+MD5sum: 7f7bd505afb4259d86176439881fb0b0
 Description: Command-line core of BookThief
  Prepares PDFs to be home-printed
  in "pamphlet" style
