@@ -47,6 +47,21 @@ SHA1: 248461420e6428bb29d84723731dd48010dcf561
 MD5sum: ccf825dc160a0744d877a2357b980db8
 Description: Copies text to clipboard from screenshot via OCR
 
+Package: polonius
+Version: 0.2
+Architecture: i386
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 97
+Depends: libstdc++6, libgcc-s1, libc6
+Priority: optional
+Section: utils
+Filename: pool/main/p/polonius/polonius_0.2_i386.deb
+Size: 31396
+SHA256: a6985c50c52c3f191c684cffa81f37cad02f85777c59ae2fed148afe9110e616
+SHA1: cedcc4fd45a0e44aeac5462cbd1245e18b3efde5
+MD5sum: d78726955127145fe07c06d3c786469e
+Description: A uniquely memory-efficient text editor
+
 Package: randomtext
 Version: 1.1
 Architecture: all

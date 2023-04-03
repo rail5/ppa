@@ -48,18 +48,18 @@ MD5sum: ccf825dc160a0744d877a2357b980db8
 Description: Copies text to clipboard from screenshot via OCR
 
 Package: polonius
-Version: 0.1
+Version: 0.2
 Architecture: amd64
 Maintainer: rail5 <andrew@rail5.org>
 Installed-Size: 96
 Depends: libstdc++6, libgcc-s1, libc6
 Priority: optional
 Section: utils
-Filename: pool/main/p/polonius/polonius_0.1_amd64.deb
-Size: 28156
-SHA256: e85ed6682f91baee3f66c8ae40e81f1ec6d003d12ff05547dfbf26a1f77aec8d
-SHA1: e69dfbadfdcd6a459438b31c869710a16e50b735
-MD5sum: 6c0a32b1cc7b273d5fca0a016fedb7d9
+Filename: pool/main/p/polonius/polonius_0.2_amd64.deb
+Size: 28044
+SHA256: 62f961fd79dd037b29c972ec88ce4b7dee1a02e7c876da4d22ec94a407269845
+SHA1: 690ad6158fa10b1513048b3d536218aea0d5d780
+MD5sum: 7de23a722afe0054b4e669ab06e301cc
 Description: A uniquely memory-efficient text editor
 
 Package: randomtext
