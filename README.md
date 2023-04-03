@@ -6,7 +6,7 @@ This repository contains the following packages for **amd64**, **i386**, and **a
   - [liesel](https://github.com/rail5/liesel)
   - [bookthief](https://github.com/rail5/bookthief)
   - [polonius](https://github.com/rail5/polonius)
-  - [ocrshot](https://github.com/rail5/mate-ocrshot)
+  - [ocrshot](https://github.com/rail5/ocrshot)
   - [randomtext](https://github.com/rail5/randomtext)
 
 You can configure Debian to use this repository as follows:
