@@ -1,16 +1,16 @@
 Package: bookthief
-Version: 11.2.2
+Version: 11.2.3
 Architecture: arm64
 Maintainer: rail5 <andrew@rail5.org>
 Installed-Size: 3626
 Depends: liesel (>= 10.1), libc6, libgtk2.0-0, libx11-6, libglib2.0-0, libpango-1.0-0, libpangocairo-1.0-0, libfontconfig1, libxrender1, libxinerama1, libxi6, libxrandr2, libxcursor1, libxcomposite1, libxdamage1, libxfixes3, libxext6, libxcb1, libpangoft2-1.0-0, libpcre3, libfribidi0, libthai0, libharfbuzz0b, libpixman-1-0, libfreetype6, libpng16-16, libxcb-shm0, libxcb-render0, zlib1g, libmount1, libexpat1, libuuid1, libxau6, libxdmcp6, libdatrie1, libgraphite2-3, libblkid1, libbsd0
 Priority: optional
 Section: utils
-Filename: pool/main/b/bookthief/bookthief_11.2.2_arm64.deb
-Size: 767224
-SHA256: 71ffcd2dd8759e8fff9c045ec2d6744556d1522e23e0f8d050a294c052d133f0
-SHA1: 5755afc94ca92ef4557dc6446e3ba84adc682f78
-MD5sum: 4abf652f831b377ff8f3e6736c0dd1fd
+Filename: pool/main/b/bookthief/bookthief_11.2.3_arm64.deb
+Size: 767456
+SHA256: 928206f0acf04cad628cf0b41b3c252097b6c3ebacf95440721cbfc59bfb08a8
+SHA1: 26c3d42fefe4676bde253f3fea2b508fa5430e93
+MD5sum: 82856d3927d2086356ecd77ddcd4c08c
 Description: GUI Front-end for Liesel
  Prepares PDFs to be home-printed
  in "pamphlet" style
