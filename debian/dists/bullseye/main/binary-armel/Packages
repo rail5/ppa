@@ -1,0 +1,31 @@
+Package: ocrshot
+Version: 1.2
+Architecture: all
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 14
+Depends: maim, xclip, tesseract-ocr, graphicsmagick-imagemagick-compat
+Priority: optional
+Section: utils
+Filename: pool/main/o/ocrshot/ocrshot_1.2_all.deb
+Size: 3152
+SHA256: 54c9e680bd6fcf4745cc391e636f2687dc11e96b19c8199852a7e304b5b2aa0a
+SHA1: abbe1510dd3d9c951eed72d054fbdaa7bfc6d8ed
+MD5sum: 0516f7c4d8a27870fbd09c787c56e4b3
+Description: Copies text to clipboard from screenshot via Optical Character Recognition
+  ocrshot allows you to copy-and-paste text from videos, pictures, etc
+
+Package: randomtext
+Version: 1.1
+Architecture: all
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 13
+Depends: coreutils
+Priority: optional
+Section: utils
+Filename: pool/main/r/randomtext/randomtext_1.1_all.deb
+Size: 2064
+SHA256: fba9ee0c071a5de63077b1b79fb4f1a0f4d347351b8d1a54df2e329d11d66e1c
+SHA1: 9f15894520a9a0a3382c24a33cb4f6dd312f12bd
+MD5sum: 4ed3a4011422724de2faafe9b52773d9
+Description: Converts output from /dev/urandom to printable ASCII
+

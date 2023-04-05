@@ -1,7 +1,7 @@
 Origin: rail5
 Label: rail5
 Codename: bullseye
-Architectures: source amd64 i386 arm64
+Architectures: source amd64 i386 arm64 armel
 Components: main
 Description: Apt repository for rail5
 SignWith: ED156E8BC6F91636676A77AAA0CB570AB6629159
