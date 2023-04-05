@@ -14,6 +14,21 @@ MD5sum: 0516f7c4d8a27870fbd09c787c56e4b3
 Description: Copies text to clipboard from screenshot via Optical Character Recognition
   ocrshot allows you to copy-and-paste text from videos, pictures, etc
 
+Package: polonius
+Version: 0.3
+Architecture: armel
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 81
+Depends: libstdc++6, libgcc-s1, libc6, libncurses6, libncursesw6
+Priority: optional
+Section: utils
+Filename: pool/main/p/polonius/polonius_0.3_armel.deb
+Size: 26544
+SHA256: 9f7808ccb4a716af4a63ff32479668e391856c9acb61230bba357e61fa92931c
+SHA1: e60f0d6c4f636458160306e2517ef107a75cfd88
+MD5sum: c38783bf24a254b50c6b69b70c032aa9
+Description: A uniquely memory-efficient text editor
+
 Package: randomtext
 Version: 1.1
 Architecture: all
