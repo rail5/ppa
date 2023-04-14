@@ -8,6 +8,7 @@ This repository contains the following packages for **amd64**, **i386**, and **a
   - [polonius](https://github.com/rail5/polonius)
   - [ocrshot](https://github.com/rail5/ocrshot)
   - [randomtext](https://github.com/rail5/randomtext)
+  - [evolution-notify](https://github.com/rail5/evolution-notify)
 
 You can configure Debian to use this repository as follows:
 
