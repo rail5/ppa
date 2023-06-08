@@ -16,18 +16,18 @@ Description: GUI Front-end for Liesel
  in "pamphlet" style
 
 Package: evolution-notify
-Version: 0.2
+Version: 0.3
 Architecture: all
 Maintainer: rail5 <andrew@rail5.org>
 Installed-Size: 783
 Depends: evolution, xdotool, bash
 Priority: optional
 Section: utils
-Filename: pool/main/e/evolution-notify/evolution-notify_0.2_all.deb
-Size: 715292
-SHA256: 6e2f282b4f8c1f70099c6b97d0eb9d3776032b5453c7bce572d3d41f05cc9f89
-SHA1: 6a4dbeb269a90db5e9d4a1b80a0b1550949c0bb4
-MD5sum: 73e992ecb4c06d37ee40c6621fd89801
+Filename: pool/main/e/evolution-notify/evolution-notify_0.3_all.deb
+Size: 715372
+SHA256: 9023c30770aca59e954021a2863d29d7b4b4c46c054e1a9769f239948acb7760
+SHA1: 75f2341194381dc7c50ecedd10f23a87bb146593
+MD5sum: 964d8a8a2ea68a7e0bc1fd7f9d0a3497
 Description: Provides a systray icon displaying unread email count in Evolution
   evolution-notify provides a systray icon which displays your unread email count
 
