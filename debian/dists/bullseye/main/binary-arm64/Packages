@@ -92,3 +92,20 @@ SHA1: 9f15894520a9a0a3382c24a33cb4f6dd312f12bd
 MD5sum: 4ed3a4011422724de2faafe9b52773d9
 Description: Converts output from /dev/urandom to printable ASCII
 
+Package: stepgrampa
+Version: 1.0
+Architecture: all
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 15
+Depends: file-roller, caja, engrampa
+Enhances: engrampa
+Priority: optional
+Section: utils
+Filename: pool/main/s/stepgrampa/stepgrampa_1.0_all.deb
+Size: 2188
+SHA256: b8e6762e23e5058ff069d2b0540809ed496ac8df10642d79fa21aaf2a9ae8c40
+SHA1: 8855c91f0019c1af38ac21790e9df86eb9e0bd66
+MD5sum: d011d76d1a44326509affe49668d27e8
+Description: Replaces MATE's engrampa with GNOME's file-roller
+  Replaces MATE's engrampa with GNOME's file-roller for use in caja
+
