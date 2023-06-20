@@ -32,21 +32,19 @@ Description: Provides a systray icon displaying unread email count in Evolution
   evolution-notify provides a systray icon which displays your unread email count
 
 Package: liesel
-Version: 11.3.3
+Version: 11.3.4
 Architecture: amd64
 Maintainer: rail5 <andrew@rail5.org>
 Installed-Size: 108
-Depends: libbsd0, libc6, libxcb1, liblzma5, libuuid1, libexpat1, libstdc++6, libgomp1, libzstd1, libxml2, libbz2-1.0, libx11-6, libxext6, libwmf0.2-7, libpng16-16, libtiff5, liblcms2-2, libwebp6, libwebpmux3, libjbig0, zlib1g, libjpeg-turbo8 | libjpeg62-turbo, libfontconfig1, libfreetype6, libpoppler-cpp0v5, libgraphicsmagick-q16-3, libgraphicsmagick++-q16-12, libhpdf-2.3.0
+Depends: libbsd0, libc6, libxcb1, liblzma5, libuuid1, libexpat1, libstdc++6, libgomp1, libzstd1, libxml2, libbz2-1.0, libx11-6, libxext6, libwmf0.2-7, libpng16-16, libtiff5 | libtiff6, liblcms2-2, libwebp6 | libwebp7, libwebpmux3, libjbig0, zlib1g, libjpeg-turbo8 | libjpeg62-turbo, libfontconfig1, libfreetype6, libpoppler-cpp0v5, libgraphicsmagick-q16-3, libgraphicsmagick++-q16-12, libhpdf-2.3.0
 Priority: optional
 Section: utils
-Filename: pool/main/l/liesel/liesel_11.3.3_amd64.deb
-Size: 40912
-SHA256: 55dfc7425dda8e0e8893a5b051024df2e7fd80e31673dc9dd83e9f59f5c11725
-SHA1: 667fc7708401fd053fe8026949e3b000e1a8d0a9
-MD5sum: 367e85a774471d30c94399e33a8932c2
-Description: Command-line core of BookThief
- Prepares PDFs to be home-printed
- in "pamphlet" style
+Filename: pool/main/l/liesel/liesel_11.3.4_amd64.deb
+Size: 40932
+SHA256: a6f93dffc359348381b703885bf17f0fc43f3c762a467c65f60504c92723340b
+SHA1: b201f4e523afdb21aa34be3953c1db78c27ff8cc
+MD5sum: 8c3aac9c6a2416b6e87951356bfb0077
+Description: Converts PDFs to booklets
 
 Package: ocrshot
 Version: 1.3
