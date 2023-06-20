@@ -1,6 +1,8 @@
 # deb.rail5.org
 A Debian repository for my packages
 
+All of these packages work on Debian Stable (**Bookworm**) and OldStable (**Bullseye**)
+
 This repository contains the following packages for **amd64**, **i386**, and **arm64** architectures:
 
   - [liesel](https://github.com/rail5/liesel)
