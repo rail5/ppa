@@ -1,0 +1,55 @@
+Origin: rail5
+Label: rail5
+Codename: bullseye
+Date: Fri, 18 Aug 2023 16:30:13 UTC
+Architectures: amd64 i386 arm64 armel
+Components: main
+Description: Apt repository for rail5
+MD5Sum:
+ 222d9413a5242055dc53001aa8847350 5235 main/binary-amd64/Packages
+ 2590259109c4117feaaef55965fb70ec 2232 main/binary-amd64/Packages.gz
+ 8f2726bc4f5f75e35c310db5af00af10 101 main/binary-amd64/Release
+ ec05cc6e26cb3043e5b0cd2c76265e87 5229 main/binary-i386/Packages
+ 57febab35b0ccfe9f655828748549c14 2231 main/binary-i386/Packages.gz
+ 919862def8df3066b50728f3b1c693bb 100 main/binary-i386/Release
+ 9231a3836d83788b24f5bea24cc38283 5234 main/binary-arm64/Packages
+ d8c99b9147f63a40b31ec46630e485eb 2232 main/binary-arm64/Packages.gz
+ 45e67a53bc17f624d9e8672e096ebd44 101 main/binary-arm64/Release
+ c5efa7111245e022b3319637b4b95923 3457 main/binary-armel/Packages
+ ab38b10e14866c95f41c87333095bbfd 1532 main/binary-armel/Packages.gz
+ a29f47c52a0f861c209c6cd8a4ed4596 101 main/binary-armel/Release
+ cc8f1fd2002750ee654b4dbc3bf1c0fe 6527 main/source/Sources
+ 4d73e2a83b8e061e7adf85af2087eb9e 2241 main/source/Sources.gz
+ 059a5162546fa72fce50d8ceb7911b6f 102 main/source/Release
+SHA1:
+ c3805ba1a2b0c911412b333699f5e5977c6d724f 5235 main/binary-amd64/Packages
+ 9666e0f253fd5bf4bb38a9a16026b4268068cf2b 2232 main/binary-amd64/Packages.gz
+ a484dbeede64ef9fadafee327b72fa8805eff15e 101 main/binary-amd64/Release
+ 1da88db4962482eae780fa11d15f76c798f2e47c 5229 main/binary-i386/Packages
+ cb31e6697a1e00e20be9d352b8b3354ffff9eea2 2231 main/binary-i386/Packages.gz
+ aa1435362c5ddc779229bc8e7937169626e7f23b 100 main/binary-i386/Release
+ ff0ff726c2f6238a6ffc8a5791bcf8e10042cf69 5234 main/binary-arm64/Packages
+ fc7e1bf3d96602c488ab9eed83ca52a9a75fd151 2232 main/binary-arm64/Packages.gz
+ b6b417d78c23c05186b577546a338848d98d2f6d 101 main/binary-arm64/Release
+ 7558a11aef2e18b0a1ca10640392ac48e565ec56 3457 main/binary-armel/Packages
+ c7c338b0ae0a5ef7fc0be04260ed7d22e9f639ab 1532 main/binary-armel/Packages.gz
+ 45d990c750eee54d23d4debf552f4dcbf77a3a63 101 main/binary-armel/Release
+ 367644f44f28f834313f96174c798023c20e4f49 6527 main/source/Sources
+ a3ee44eb4378a233e0d9c1071993ddca447950de 2241 main/source/Sources.gz
+ 9778cc2619c93da228ebca99ba4fa752316ea564 102 main/source/Release
+SHA256:
+ fad0c7b86c9991aab83cb23c897bd6e00b6432d6a3c270aad52eae9ac9a6442c 5235 main/binary-amd64/Packages
+ 25905b9bb4cf19228f7739b543eeafb9e7c15ceb2f33351ba1cb45be5853f203 2232 main/binary-amd64/Packages.gz
+ 947013d6001b982399ef3ea5b2116766477a91f7002eb1971c44f878b3565159 101 main/binary-amd64/Release
+ e2ea80bdc535fa0a50f6c9c66af67a33979f27f8f45931fd147dd61df5792bfc 5229 main/binary-i386/Packages
+ 528ceb7455e3d20f19c1c602a2eef4553f89d4a956efe5745b4891f34810476f 2231 main/binary-i386/Packages.gz
+ 36fb34e1ad9d8c84d0b7fd203bab2e1c18bb70d2645e6cd04c4e60d55033c689 100 main/binary-i386/Release
+ ef865ae109f9229a4baf27e47324916ca8f325b48a096cebf732ceec208b639a 5234 main/binary-arm64/Packages
+ d417c4347c59890fe590ad9391e071a79a0fb3e219f174f39991cebe0bd69647 2232 main/binary-arm64/Packages.gz
+ a91609db2d553044a6b2de271354f9b6559b6192a56df8775d1670d80eac68cb 101 main/binary-arm64/Release
+ 06502475dcdc93371ed91d0784fe8782084bb6d570ddd2aaed7d86b0657d1c55 3457 main/binary-armel/Packages
+ 29e034a5903e5cc38deaee0f18b995a2b3eb0b85b7357ac20374928851fbdcd1 1532 main/binary-armel/Packages.gz
+ d159071a9af44268b4c29b508d2da41a371fc64ae9b8accbf25123c76684bfad 101 main/binary-armel/Release
+ 8646fc47915b2beda2b7f59371e7d03b73f9183ac8f6a51c18c1d4b82d933c73 6527 main/source/Sources
+ edc86a38d65ff852173178065417dd9951edc2ad7d9fc331b77f161492548f80 2241 main/source/Sources.gz
+ f060daf69b254a859cc7ef4f93af38121a7e91f9cb91bce7fa9e1944d5a0870e 102 main/source/Release

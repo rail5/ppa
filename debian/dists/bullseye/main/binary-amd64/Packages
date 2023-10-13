@@ -1,0 +1,127 @@
+Package: autobuild
+Version: 1.6
+Architecture: all
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 486
+Depends: adduser, sudo, xdg-utils, alsa-utils, build-essential, gcc, g++, make, git, wget, curl, devscripts, unzip, xz-utils, jq, reprepro, sshpass, libarchive-tools, syslinux, syslinux-utils, cpio, genisoimage, qemu-system, qemu-system-x86, qemu-utils
+Priority: optional
+Section: utils
+Filename: pool/main/a/autobuild/autobuild_1.6_all.deb
+Size: 236552
+SHA256: 804e7511d281d392a56b46721bd941afeac1946380d2c27567b7a3353e4a23ee
+SHA1: 8356e9ff3789e07a7c679e73511a631e501701bf
+MD5sum: 81c5e7399e5096a7d8293ccfe7902168
+Description: Automatically build & distribute multi-arch Debian packages from source
+ Autobuild builds Debian packages from Git sources and distributes them
+
+Package: bookthief
+Version: 11.2.4
+Architecture: amd64
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 3255
+Depends: liesel (>= 10.1), libc6, libgtk2.0-0, libx11-6, libglib2.0-0, libpango-1.0-0, libpangocairo-1.0-0, libfontconfig1, libxrender1, libxinerama1, libxi6, libxrandr2, libxcursor1, libxcomposite1, libxdamage1, libxfixes3, libxext6, libxcb1, libpangoft2-1.0-0, libpcre3, libfribidi0, libthai0, libharfbuzz0b, libpixman-1-0, libfreetype6, libpng16-16, libxcb-shm0, libxcb-render0, zlib1g, libmount1, libexpat1, libuuid1, libxau6, libxdmcp6, libdatrie1, libgraphite2-3, libblkid1, libbsd0
+Priority: optional
+Section: utils
+Filename: pool/main/b/bookthief/bookthief_11.2.4_amd64.deb
+Size: 858124
+SHA256: 2b3d37e4ee277b6b15c17c97275b0edc91d6cfe53d72bdafcbceca9c4c3027db
+SHA1: 49cbcd68ba79802b9cf6abb6d0aafccabe3fb2d9
+MD5sum: d1e36097495b18bcbc74acb10ddd0a96
+Description: GUI Front-end for Liesel
+ Prepares PDFs to be home-printed
+ in "pamphlet" style
+
+Package: evolution-notify
+Version: 0.3
+Architecture: all
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 783
+Depends: evolution, xdotool, bash
+Priority: optional
+Section: utils
+Filename: pool/main/e/evolution-notify/evolution-notify_0.3_all.deb
+Size: 715372
+SHA256: 9023c30770aca59e954021a2863d29d7b4b4c46c054e1a9769f239948acb7760
+SHA1: 75f2341194381dc7c50ecedd10f23a87bb146593
+MD5sum: 964d8a8a2ea68a7e0bc1fd7f9d0a3497
+Description: Provides a systray icon displaying unread email count in Evolution
+  evolution-notify provides a systray icon which displays your unread email count
+
+Package: liesel
+Version: 11.3.4
+Architecture: amd64
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 108
+Depends: libbsd0, libc6, libxcb1, liblzma5, libuuid1, libexpat1, libstdc++6, libgomp1, libzstd1, libxml2, libbz2-1.0, libx11-6, libxext6, libwmf0.2-7, libpng16-16, libtiff5 | libtiff6, liblcms2-2, libwebp6 | libwebp7, libwebpmux3, libjbig0, zlib1g, libjpeg-turbo8 | libjpeg62-turbo, libfontconfig1, libfreetype6, libpoppler-cpp0v5, libgraphicsmagick-q16-3, libgraphicsmagick++-q16-12, libhpdf-2.3.0
+Priority: optional
+Section: utils
+Filename: pool/main/l/liesel/liesel_11.3.4_amd64.deb
+Size: 40932
+SHA256: a6f93dffc359348381b703885bf17f0fc43f3c762a467c65f60504c92723340b
+SHA1: b201f4e523afdb21aa34be3953c1db78c27ff8cc
+MD5sum: 8c3aac9c6a2416b6e87951356bfb0077
+Description: Converts PDFs to booklets
+
+Package: ocrshot
+Version: 1.3
+Architecture: all
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 14
+Depends: maim, xclip, tesseract-ocr, graphicsmagick-imagemagick-compat
+Priority: optional
+Section: utils
+Filename: pool/main/o/ocrshot/ocrshot_1.3_all.deb
+Size: 3308
+SHA256: 5b770a6ace88e53c269fffab48c7c8637c9e0fd38ca48db426b3d16f5c4ac92a
+SHA1: 2540194fa0018b717149587ccffbb60dc54148ff
+MD5sum: e23bf25ba7a1c442cc484bf00fd8ccbd
+Description: Copies text to clipboard from screenshot via Optical Character Recognition
+  ocrshot allows you to copy-and-paste text from videos, pictures, etc
+
+Package: polonius
+Version: 0.4.10
+Architecture: amd64
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 336
+Depends: libstdc++6, libgcc-s1, libc6, libncurses6, libncursesw6
+Priority: optional
+Section: utils
+Filename: pool/main/p/polonius/polonius_0.4.10_amd64.deb
+Size: 83000
+SHA256: 9566ba7afc60fb1545caa31a27b322f9079503b9b9358586e81762f5beeed27a
+SHA1: a8a8487852e902147b73532ed21c37452c5f809e
+MD5sum: 9a4cd9a5de89df3436b6e35e7927940a
+Description: A uniquely memory-efficient text editor
+
+Package: randomtext
+Version: 1.5
+Architecture: all
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 13
+Depends: coreutils
+Priority: optional
+Section: utils
+Filename: pool/main/r/randomtext/randomtext_1.5_all.deb
+Size: 2188
+SHA256: b462cef40ff146404926db6b6aa2e8d058bbe292d5424cf48bb69e3973d7edbe
+SHA1: 29129b000e3830d6a516e125d5b2226b6f97bc16
+MD5sum: 808928216eef1f1f1597df1982a83bb2
+Description: Converts output from /dev/urandom to printable ASCII
+
+Package: stepgrampa
+Version: 1.0
+Architecture: all
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 15
+Depends: file-roller, caja, engrampa
+Enhances: engrampa
+Priority: optional
+Section: utils
+Filename: pool/main/s/stepgrampa/stepgrampa_1.0_all.deb
+Size: 2188
+SHA256: b8e6762e23e5058ff069d2b0540809ed496ac8df10642d79fa21aaf2a9ae8c40
+SHA1: 8855c91f0019c1af38ac21790e9df86eb9e0bd66
+MD5sum: d011d76d1a44326509affe49668d27e8
+Description: Replaces MATE's engrampa with GNOME's file-roller
+  Replaces MATE's engrampa with GNOME's file-roller for use in caja
+

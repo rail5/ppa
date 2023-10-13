@@ -1,0 +1,5 @@
+Component: main
+Origin: rail5
+Label: rail5
+Architecture: arm64
+Description: Apt repository for rail5

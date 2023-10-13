@@ -1,0 +1,8 @@
+Origin: rail5
+Label: rail5
+Codename: bookworm
+Suite: stable
+Architectures: source amd64 i386 arm64
+Components: main
+Description: Apt repository for rail5
+SignWith: ED156E8BC6F91636676A77AAA0CB570AB6629159
