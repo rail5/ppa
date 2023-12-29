@@ -15,18 +15,18 @@ Description: Adds a minimal/basic makefile to the current working directory
  Addmake adds a minimal/basic makefile to the current working directory
 
 Package: autobuild
-Version: 1.11.4
+Version: 1.11.5
 Architecture: all
 Maintainer: rail5 <andrew@rail5.org>
-Installed-Size: 489
-Depends: adduser, sudo, xdg-utils, alsa-utils, build-essential, gcc, g++, make, git, wget, curl, devscripts, unzip, xz-utils, jq, reprepro, sshpass, libarchive-tools, syslinux, syslinux-utils, cpio, genisoimage, qemu-system, qemu-system-x86, qemu-utils
+Installed-Size: 488
+Depends: sudo, xdg-utils, alsa-utils, build-essential, gcc, g++, make, git, wget, curl, devscripts, unzip, xz-utils, jq, reprepro, sshpass, libarchive-tools, syslinux, syslinux-utils, cpio, genisoimage, qemu-system, qemu-utils, util-linux
 Priority: optional
 Section: utils
-Filename: pool/main/a/autobuild/autobuild_1.11.4_all.deb
-Size: 237052
-SHA256: 7d856aa4860b1d6d703d2330cbd726caa7fb0021d244686babb389ea696bcbc0
-SHA1: 8b59afcd281a0d8a708f5d27398bf8a925a6d970
-MD5sum: 5a19e02837ee3144c34122398e910610
+Filename: pool/main/a/autobuild/autobuild_1.11.5_all.deb
+Size: 238248
+SHA256: b1afe28313a6b1ca300184a1a045081a6d3389d79ed51a14c275ceeb45083689
+SHA1: 27ac98010eb674661afeba3552a845ef61fafe09
+MD5sum: a908ca58d628a38cb4774b7f5749dacf
 Description: Automatically build & distribute multi-arch Debian packages from source
  Autobuild builds Debian packages from Git sources and distributes them
 

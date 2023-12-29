@@ -2,15 +2,15 @@ Format: 1.0
 Source: autobuild
 Binary: autobuild
 Architecture: all
-Version: 1.11.4
+Version: 1.11.5
 Maintainer: rail5 <andrew@rail5.org>
 Standards-Version: 3.9.3
 Build-Depends: debhelper (>= 8.0.0)
 Package-List:
  autobuild deb utils optional arch=all
 Checksums-Sha1:
- ac586721b1ce1afac08df956803b4ab783bda3b0 308955 autobuild_1.11.4.tar.gz
+ 637d01eed30eae5a4ff388b770625e423ecabf43 308969 autobuild_1.11.5.tar.gz
 Checksums-Sha256:
- 6138482aae7c44278224466cecb9c00192520092c16a7db138608c8176c073f1 308955 autobuild_1.11.4.tar.gz
+ e679feab51bad1bafbac5f88e872fd6f82c84cc116435c5c7d2a2922bab5ffe0 308969 autobuild_1.11.5.tar.gz
 Files:
- 04d48e7162dd5feb7c87e23285b29d84 308955 autobuild_1.11.4.tar.gz
+ 74d5485ac842e33871b795e56f05e00c 308969 autobuild_1.11.5.tar.gz
