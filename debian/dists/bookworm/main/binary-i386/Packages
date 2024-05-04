@@ -14,6 +14,22 @@ MD5sum: 33fc1694b11047dcf8bdefcdb77ccf50
 Description: Adds a minimal/basic makefile to the current working directory
  Addmake adds a minimal/basic makefile to the current working directory
 
+Package: autobuild
+Version: 2.2.0
+Architecture: all
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 157
+Depends: sudo, xdg-utils, pulseaudio-utils, build-essential, make, git, wget, curl, devscripts, xz-utils, jq, reserialize, reprepro, sshpass, libarchive-tools, syslinux, syslinux-utils, cpio, genisoimage, qemu-system, qemu-utils, net-tools, dialog
+Priority: optional
+Section: utils
+Filename: pool/main/a/autobuild/autobuild_2.2.0_all.deb
+Size: 56348
+SHA256: 3090cd766e667b85afd249c8d786bb83b26dc2a286c020ef77351adae1deda06
+SHA1: ab87a2aeb8f08a2e36cfa41ef5841377f022fcc6
+MD5sum: 79738e3fe59150e836acc4ed893afdab
+Description: Automatically build & distribute multi-arch Debian packages from source
+ Autobuild builds Debian packages from Git sources and distributes them
+
 Package: bookthief
 Version: 11.2.6
 Architecture: i386
