@@ -30,6 +30,23 @@ MD5sum: c772a33807faafcf7d0768f5aa86632e
 Description: Automatically build & distribute multi-arch Debian packages from source
  Autobuild builds Debian packages from Git sources and distributes them
 
+Package: bookthief
+Version: 11.2.6
+Architecture: arm64
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 3586
+Depends: liesel (>= 10.1), libc6, libgtk2.0-0, libx11-6, libglib2.0-0, libpango-1.0-0, libpangocairo-1.0-0, libfontconfig1, libxrender1, libxinerama1, libxi6, libxrandr2, libxcursor1, libxcomposite1, libxdamage1, libxfixes3, libxext6, libxcb1, libpangoft2-1.0-0, libpcre3, libfribidi0, libthai0, libharfbuzz0b, libpixman-1-0, libfreetype6, libpng16-16, libxcb-shm0, libxcb-render0, zlib1g, libmount1, libexpat1, libuuid1, libxau6, libxdmcp6, libdatrie1, libgraphite2-3, libblkid1, libbsd0
+Priority: optional
+Section: utils
+Filename: pool/main/b/bookthief/bookthief_11.2.6_arm64.deb
+Size: 767556
+SHA256: 2c81ee5930cd50a6c5c346e4f4e83cb567b17acdcbe9458d3a830d8106f08a90
+SHA1: b03d99844a9cde0f1f99b98347610b1acaf96cfe
+MD5sum: d9377036f67bfae635cd898e8eb69481
+Description: GUI Front-end for Liesel
+ Prepares PDFs to be home-printed
+ in "pamphlet" style
+
 Package: evolution-notify
 Version: 0.4
 Architecture: all
@@ -46,6 +63,21 @@ MD5sum: ba48fbc4603b245cdc047d20019eac15
 Description: Provides a systray icon displaying unread email count in Evolution
   evolution-notify provides a systray icon which displays your unread email count
 
+Package: liesel
+Version: 11.3.6
+Architecture: arm64
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 151
+Depends: libbsd0, libc6, libxcb1, liblzma5, libuuid1, libexpat1, libstdc++6, libgomp1, libzstd1, libxml2, libbz2-1.0, libx11-6, libxext6, libwmf0.2-7, libpng16-16, libtiff5 | libtiff6, liblcms2-2, libwebp6 | libwebp7, libwebpmux3, libjbig0, zlib1g, libjpeg-turbo8 | libjpeg62-turbo, libfontconfig1, libfreetype6, libpoppler-cpp0v5, libgraphicsmagick-q16-3, libgraphicsmagick++-q16-12, libhpdf-2.3.0
+Priority: optional
+Section: utils
+Filename: pool/main/l/liesel/liesel_11.3.6_arm64.deb
+Size: 37436
+SHA256: 9393b3a33d871514850e264b4d1979af1f0a013a485be20b3ee1f0458f1f8d01
+SHA1: 7a166d62f1db4a2b7870dcaaee869c8903866f22
+MD5sum: 3071f0404eafcdf89ddd1e9c2b067fb8
+Description: Converts PDFs to booklets
+
 Package: ocrshot
 Version: 1.4
 Architecture: all
@@ -61,6 +93,21 @@ SHA1: 35d22b35cc5a388a33e2426907a6e9bdf56f1874
 MD5sum: bdee14c0c20781970a54363e6b631aa5
 Description: Copies text to clipboard from screenshot via Optical Character Recognition
   ocrshot allows you to copy-and-paste text from videos, pictures, etc
+
+Package: polonius
+Version: 0.5.6
+Architecture: arm64
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 412
+Depends: libstdc++6, libgcc-s1, libc6, libncurses6, libncursesw6
+Priority: optional
+Section: utils
+Filename: pool/main/p/polonius/polonius_0.5.6_arm64.deb
+Size: 81880
+SHA256: 945649e57d1effa09f690f308333300b03f4764ca661c41d08997f593dee94a4
+SHA1: 524ce8b43196bdc0eb5b26b4b15a81381578092f
+MD5sum: 33dfe66f393dd6a32cfee991b2ade337
+Description: A uniquely memory-efficient text editor
 
 Package: randomtext
 Version: 1.6
