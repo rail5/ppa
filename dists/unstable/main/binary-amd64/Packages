@@ -30,6 +30,23 @@ MD5sum: c772a33807faafcf7d0768f5aa86632e
 Description: Automatically build & distribute multi-arch Debian packages from source
  Autobuild builds Debian packages from Git sources and distributes them
 
+Package: bookthief
+Version: 11.2.6
+Architecture: amd64
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 3159
+Depends: liesel (>= 10.1), libc6, libgtk2.0-0, libx11-6, libglib2.0-0, libpango-1.0-0, libpangocairo-1.0-0, libfontconfig1, libxrender1, libxinerama1, libxi6, libxrandr2, libxcursor1, libxcomposite1, libxdamage1, libxfixes3, libxext6, libxcb1, libpangoft2-1.0-0, libpcre3, libfribidi0, libthai0, libharfbuzz0b, libpixman-1-0, libfreetype6, libpng16-16, libxcb-shm0, libxcb-render0, zlib1g, libmount1, libexpat1, libuuid1, libxau6, libxdmcp6, libdatrie1, libgraphite2-3, libblkid1, libbsd0
+Priority: optional
+Section: utils
+Filename: pool/main/b/bookthief/bookthief_11.2.6_amd64.deb
+Size: 850412
+SHA256: 5aca1adc1cf2d7e4a65e681094e46675dd2465ed89a3319637fcfb9e8337b906
+SHA1: f5ae65e7fbf876d2a3db2be4696fc050724dafa4
+MD5sum: d61caa8d140e40b5347f4050b5bafa27
+Description: GUI Front-end for Liesel
+ Prepares PDFs to be home-printed
+ in "pamphlet" style
+
 Package: evolution-notify
 Version: 0.4
 Architecture: all
