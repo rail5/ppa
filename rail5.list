@@ -1,2 +1,2 @@
-deb https://deb.rail5.org/debian bookworm main
-deb-src https://deb.rail5.org/debian bookworm main
+deb https://deb.rail5.org unstable main
+deb-src https://deb.rail5.org unstable main
