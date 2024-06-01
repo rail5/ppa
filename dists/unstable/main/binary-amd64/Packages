@@ -1,3 +1,19 @@
+Package: addmake
+Version: 1.1
+Architecture: all
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 14
+Depends: make
+Priority: optional
+Section: utils
+Filename: pool/main/a/addmake/addmake_1.1_all.deb
+Size: 2788
+SHA256: fdb3e22da0b46677a1175c35c0e7c6bf3489e8d9ab5b660efbeba7ea8123e17d
+SHA1: a887d7ad6cc122a27b8e4acae3ead9dd8484dc0c
+MD5sum: 33fc1694b11047dcf8bdefcdb77ccf50
+Description: Adds a minimal/basic makefile to the current working directory
+ Addmake adds a minimal/basic makefile to the current working directory
+
 Package: autobuild
 Version: 3.1.0
 Architecture: all
