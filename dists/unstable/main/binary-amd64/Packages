@@ -1,0 +1,16 @@
+Package: autobuild
+Version: 3.1.0
+Architecture: all
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 154
+Depends: sudo, pulseaudio-utils, build-essential, make, git, wget, curl, devscripts, xz-utils, jq, reserialize, reprepro, sshpass, libarchive-tools, syslinux, syslinux-utils, cpio, genisoimage, qemu-system, qemu-utils, net-tools, dialog, socat, adduser
+Priority: optional
+Section: utils
+Filename: pool/main/a/autobuild/autobuild_3.1.0_all.deb
+Size: 60524
+SHA256: 577fc46e3fdde994ffec8a8e3484000ef2c3be1761bbfc7739eb52a45aabaaf9
+SHA1: ed00e7a697911dc45b8c199cb2b9e69959c19679
+MD5sum: f562fdd6f5bde9128aa240a186db9503
+Description: Automatically build & distribute multi-arch Debian packages from source
+ Autobuild builds Debian packages from Git sources and distributes them
+

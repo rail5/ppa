@@ -1,0 +1,46 @@
+Origin: rail5
+Label: rail5
+Codename: unstable
+Date: Sat, 01 Jun 2024 08:44:37 UTC
+Architectures: amd64 i386 arm64
+Components: main
+Description: Apt repository for rail5
+MD5Sum:
+ 0ae481da066474a274c9a8a22f6fcc28 783 main/binary-amd64/Packages
+ 2841c7a0c7d8aa684ac7d81f263b96b5 515 main/binary-amd64/Packages.gz
+ 8f2726bc4f5f75e35c310db5af00af10 101 main/binary-amd64/Release
+ 0ae481da066474a274c9a8a22f6fcc28 783 main/binary-i386/Packages
+ 2841c7a0c7d8aa684ac7d81f263b96b5 515 main/binary-i386/Packages.gz
+ 919862def8df3066b50728f3b1c693bb 100 main/binary-i386/Release
+ 0ae481da066474a274c9a8a22f6fcc28 783 main/binary-arm64/Packages
+ 2841c7a0c7d8aa684ac7d81f263b96b5 515 main/binary-arm64/Packages.gz
+ 45e67a53bc17f624d9e8672e096ebd44 101 main/binary-arm64/Release
+ 310a1b1e2476e9deb720a0f858e0ece4 805 main/source/Sources
+ a020537fc575dbb03c3e18a33018ef02 477 main/source/Sources.gz
+ 059a5162546fa72fce50d8ceb7911b6f 102 main/source/Release
+SHA1:
+ fe0f58e19ee06aacf56027af08f7313c2db96168 783 main/binary-amd64/Packages
+ 2715010b85ee2f73c8c6a8fb18c71644a116722d 515 main/binary-amd64/Packages.gz
+ a484dbeede64ef9fadafee327b72fa8805eff15e 101 main/binary-amd64/Release
+ fe0f58e19ee06aacf56027af08f7313c2db96168 783 main/binary-i386/Packages
+ 2715010b85ee2f73c8c6a8fb18c71644a116722d 515 main/binary-i386/Packages.gz
+ aa1435362c5ddc779229bc8e7937169626e7f23b 100 main/binary-i386/Release
+ fe0f58e19ee06aacf56027af08f7313c2db96168 783 main/binary-arm64/Packages
+ 2715010b85ee2f73c8c6a8fb18c71644a116722d 515 main/binary-arm64/Packages.gz
+ b6b417d78c23c05186b577546a338848d98d2f6d 101 main/binary-arm64/Release
+ f3be1fea0f293445036dd51ae59069ff415b884d 805 main/source/Sources
+ cb2d34b4907ebe96ee7069aab07ed50b003d7dab 477 main/source/Sources.gz
+ 9778cc2619c93da228ebca99ba4fa752316ea564 102 main/source/Release
+SHA256:
+ 0010c431cfa3e40208de38868520c00c9e118886d9bebd9f25d546ddf0f6884c 783 main/binary-amd64/Packages
+ ab0b7bc28482301a5921cd45f7a89425e630fea5ffb384997375551ec9d1cfc3 515 main/binary-amd64/Packages.gz
+ 947013d6001b982399ef3ea5b2116766477a91f7002eb1971c44f878b3565159 101 main/binary-amd64/Release
+ 0010c431cfa3e40208de38868520c00c9e118886d9bebd9f25d546ddf0f6884c 783 main/binary-i386/Packages
+ ab0b7bc28482301a5921cd45f7a89425e630fea5ffb384997375551ec9d1cfc3 515 main/binary-i386/Packages.gz
+ 36fb34e1ad9d8c84d0b7fd203bab2e1c18bb70d2645e6cd04c4e60d55033c689 100 main/binary-i386/Release
+ 0010c431cfa3e40208de38868520c00c9e118886d9bebd9f25d546ddf0f6884c 783 main/binary-arm64/Packages
+ ab0b7bc28482301a5921cd45f7a89425e630fea5ffb384997375551ec9d1cfc3 515 main/binary-arm64/Packages.gz
+ a91609db2d553044a6b2de271354f9b6559b6192a56df8775d1670d80eac68cb 101 main/binary-arm64/Release
+ b64dbf15f1f275f65b171bc93ccc5f15ddd75eee92a71a801b6399d7501155e6 805 main/source/Sources
+ 87fb118327a5508459bd5fdbc9979d4342ee404616bcad82deaf0e8eb67edb8e 477 main/source/Sources.gz
+ f060daf69b254a859cc7ef4f93af38121a7e91f9cb91bce7fa9e1944d5a0870e 102 main/source/Release
