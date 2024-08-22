@@ -80,18 +80,18 @@ Description: Converts PDFs to booklets
  Liesel transforms ordinary PDFs into booklets for home or professional printing
 
 Package: ocrshot
-Version: 1.4
+Version: 1.5
 Architecture: all
 Maintainer: rail5 <andrew@rail5.org>
 Installed-Size: 14
-Depends: maim, xclip, tesseract-ocr, graphicsmagick-imagemagick-compat
+Depends: gnome-screenshot, xclip, tesseract-ocr, graphicsmagick-imagemagick-compat
 Priority: optional
 Section: utils
-Filename: pool/main/o/ocrshot/ocrshot_1.4_all.deb
-Size: 3356
-SHA256: fcdb8713b96e2c2ada8efd029e92bf7c25190b9f1db2221440b8c5c9e981806d
-SHA1: 35d22b35cc5a388a33e2426907a6e9bdf56f1874
-MD5sum: bdee14c0c20781970a54363e6b631aa5
+Filename: pool/main/o/ocrshot/ocrshot_1.5_all.deb
+Size: 3456
+SHA256: a92b4792417b911367ae258707910dffc8fec0bd037611c7626557bab4de9b7d
+SHA1: 5a07c5606555a77f6e37ef0b3d673d4ee94cb55b
+MD5sum: 3f64a877fd9669e432bb36d53ddb0e0d
 Description: Copies text to clipboard from screenshot via Optical Character Recognition
   ocrshot allows you to copy-and-paste text from videos, pictures, etc
 
