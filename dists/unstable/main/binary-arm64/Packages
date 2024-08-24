@@ -64,18 +64,18 @@ Description: Provides a systray icon displaying unread email count in Evolution
   evolution-notify provides a systray icon which displays your unread email count
 
 Package: liesel
-Version: 11.3.7
+Version: 11.3.8
 Architecture: arm64
 Maintainer: rail5 <andrew@rail5.org>
 Installed-Size: 151
-Depends: libgraphicsmagick-q16-3 (>= 1.3.5), libgraphicsmagick++-q16-12 (>= 1.3.26-5~), libhpdf-2.3.0 (>= 2.3.0), libpoppler-cpp0v5 (>= 22.12.0), libfontconfig1, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 9)
+Depends: libgraphicsmagick-q16-3, libgraphicsmagick++-q16-12, libhpdf-2.3.0, libpoppler-cpp0v5, libfontconfig1, libc6, libgcc-s1, libstdc++6
 Priority: optional
 Section: utils
-Filename: pool/main/l/liesel/liesel_11.3.7_arm64.deb
-Size: 37376
-SHA256: 1b88293dd7bf7f2938f97406a27d96a45bc45f641940fe53d3cecebe9e4c92b8
-SHA1: 22abbd06fddb02b04ee484e3623682813c5a900d
-MD5sum: ff8dbdbfa756e344ab58e42fc30fd63c
+Filename: pool/main/l/liesel/liesel_11.3.8_arm64.deb
+Size: 37600
+SHA256: 74eee0bee7ed4c0dead4df1fb6e7392541379cd524e6b15e9d8c67059c861207
+SHA1: 967ace0ef34e742323f6d4e94fdb631eff60f1ab
+MD5sum: 128ff846c5e0e2a7f3d77d766ce82ff2
 Description: Converts PDFs to booklets
  Liesel transforms ordinary PDFs into booklets for home or professional printing
 
