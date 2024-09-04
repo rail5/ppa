@@ -2,15 +2,15 @@ Format: 1.0
 Source: polonius
 Binary: polonius
 Architecture: any
-Version: 0.5.9
+Version: 0.5.10
 Maintainer: rail5 <andrew@rail5.org>
 Standards-Version: 3.9.3
 Build-Depends: debhelper (>= 8.0.0), libncurses-dev, libboost-regex1.81-dev
 Package-List:
  polonius deb utils optional arch=any
 Checksums-Sha1:
- 850912687a2407a5939e792b5cf63874658bebbb 45525 polonius_0.5.9.tar.gz
+ 52e2ddd0d90e1fca30e91cce0327a61b579d1ebb 46240 polonius_0.5.10.tar.gz
 Checksums-Sha256:
- a9b6951cfd5f89508ddc28083cf2c19f1d813d39a79f6310c40db93d8abe95ef 45525 polonius_0.5.9.tar.gz
+ 1bba670f466c6435162dd9cf3fec20b6a44aecb2faf8a9154f67cbc129fed1ad 46240 polonius_0.5.10.tar.gz
 Files:
- d77835648816901837b0126694bfdace 45525 polonius_0.5.9.tar.gz
+ bd3b05fa02c4a8784895cbc068ba3a25 46240 polonius_0.5.10.tar.gz
