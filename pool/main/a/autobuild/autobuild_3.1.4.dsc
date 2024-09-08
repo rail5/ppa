@@ -2,15 +2,15 @@ Format: 3.0 (native)
 Source: autobuild
 Binary: autobuild
 Architecture: all
-Version: 3.1.3
+Version: 3.1.4
 Maintainer: rail5 <andrew@rail5.org>
 Standards-Version: 3.9.3
 Build-Depends: debhelper (>= 8.0.0), pandoc
 Package-List:
  autobuild deb utils optional arch=all
 Checksums-Sha1:
- 815823c3ac7ed8444f76edb33acdcfc4d0885426 68020 autobuild_3.1.3.tar.xz
+ c21c85250a4f1dce60403a3352c6433cecbc815d 68332 autobuild_3.1.4.tar.xz
 Checksums-Sha256:
- 4e3f303227a608bfe12badf35f256403434ce4942da0ee40f7685df9136ae2c8 68020 autobuild_3.1.3.tar.xz
+ 684f8f6be202474e4e463fdf0dd427ef64b1976fce55476b500d11eb9001ea79 68332 autobuild_3.1.4.tar.xz
 Files:
- 43f9fecb26e575b31851249fa6486369 68020 autobuild_3.1.3.tar.xz
+ fc6510000ea0c3fc669baab72c2f7407 68332 autobuild_3.1.4.tar.xz
