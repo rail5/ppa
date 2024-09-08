@@ -15,18 +15,18 @@ Description: Adds a minimal/basic makefile to the current working directory
  Addmake adds a minimal/basic makefile to the current working directory
 
 Package: autobuild
-Version: 3.1.4
+Version: 3.1.5
 Architecture: all
 Maintainer: rail5 <andrew@rail5.org>
 Installed-Size: 156
 Depends: sudo, pulseaudio-utils, build-essential, make, git, wget, curl, devscripts, xz-utils, jq, reserialize, reprepro, sshpass, libarchive-tools, syslinux, syslinux-utils, cpio, genisoimage, qemu-system, qemu-utils, net-tools, dialog, socat, adduser
 Priority: optional
 Section: utils
-Filename: pool/main/a/autobuild/autobuild_3.1.4_all.deb
-Size: 61300
-SHA256: d68a6de65c58a04176900bda0902828ec6ccd6dace7f9eb0110d376acdae7411
-SHA1: 6cb2405ee030f78dd5d00116cf557993612c3569
-MD5sum: 77f52f0eb0976f1a5bf6f940702e54bc
+Filename: pool/main/a/autobuild/autobuild_3.1.5_all.deb
+Size: 61336
+SHA256: fde0116de7d8294ae9aca568fb90d8ca4118dbdf7cac5412fa0756228b920503
+SHA1: c8b6955730dec1aa68bf5a5d36b3acbabd9472e9
+MD5sum: 40dbd175bb319d7330148cb2c4863f9f
 Description: Automatically build & distribute multi-arch Debian packages from source
  Autobuild builds Debian packages from Git sources and distributes them
 
