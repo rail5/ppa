@@ -15,20 +15,38 @@ Description: Adds a minimal/basic makefile to the current working directory
  Addmake adds a minimal/basic makefile to the current working directory
 
 Package: autobuild
-Version: 3.1.7
+Version: 3.2.0
 Architecture: all
 Maintainer: rail5 <andrew@rail5.org>
-Installed-Size: 163
+Installed-Size: 170
 Depends: sudo, pulseaudio-utils, build-essential, make, git, wget, curl, devscripts, xz-utils, jq, reserialize, reprepro, sshpass, libarchive-tools, syslinux, syslinux-utils, cpio, genisoimage, qemu-system, qemu-utils, net-tools, dialog, socat, adduser
 Priority: optional
 Section: utils
-Filename: pool/main/a/autobuild/autobuild_3.1.7_all.deb
-Size: 62472
-SHA256: 9b6369ad3d124ea90a20cb2cda33fee0c7e0ad634bd72d0d3e88915bab4002d8
-SHA1: 21bdb02a591f35ed6010c8617f2642568fc83006
-MD5sum: dbb3b4e62edb161b5d33dea1bcd09ef1
+Filename: pool/main/a/autobuild/autobuild_3.2.0_all.deb
+Size: 64616
+SHA256: f16df7a0434856a616f2e65d55fad80b35a7e5c06bdb017ca3ee3bb7c8bbf3f3
+SHA1: d025559f8786b74486b97a2ed171e82ef8561204
+MD5sum: a7f1aae9d6ebadc2af965a471c92997c
 Description: Automatically build & distribute multi-arch Debian packages from source
  Autobuild builds Debian packages from Git sources and distributes them
+
+Package: autobuild-web
+Source: autobuild
+Version: 3.2.0
+Architecture: all
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 107
+Depends: autobuild, php, php-sqlite3, apache2, libapache2-mod-php
+Recommends: httpd
+Priority: optional
+Section: utils
+Filename: pool/main/a/autobuild/autobuild-web_3.2.0_all.deb
+Size: 29772
+SHA256: eae34dae79005820f462fe1209f5f1a343dba40785b76d48b25d55063cbf9e03
+SHA1: 3f41b78b60ce66df0e45ecf719b22a9e0a6a5189
+MD5sum: 2047e04ccbb90df89b232f1cbda3eaaf
+Description: Web-based front-end for autobuild
+ Web-based UI to configure and run autobuild
 
 Package: bookthief
 Version: 11.2.6
