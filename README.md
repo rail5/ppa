@@ -8,6 +8,7 @@ This repository contains the following packages for **amd64**, **i386**, and **a
 | [bookthief](https://github.com/rail5/bookthief)               | Converts PDFs to booklets *(GUI)*                                     |
 | [polonius](https://github.com/rail5/polonius)                 | A text editor for very large files                                    |
 | [autobuild](https://github.com/rail5/autobuild)               | Automatically builds & distributes Debian packages                    |
+| [autobuild-web](https://github.com/rail5/autobuild)           | A web front-end for autobuild                                         |
 | [ocrshot](https://github.com/rail5/ocrshot)                   | Copies text from videos & photos by screenshotting                    |
 | [randomtext](https://github.com/rail5/randomtext)             | Converts output from */dev/urandom* to printable ASCII                |
 | [evolution-notify](https://github.com/rail5/evolution-notify) | Provides a systray icon displaying unread email count for *Evolution* |
