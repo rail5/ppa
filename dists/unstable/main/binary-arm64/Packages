@@ -15,36 +15,36 @@ Description: Adds a minimal/basic makefile to the current working directory
  Addmake adds a minimal/basic makefile to the current working directory
 
 Package: autobuild
-Version: 3.2.0
+Version: 3.2.1
 Architecture: all
 Maintainer: rail5 <andrew@rail5.org>
 Installed-Size: 170
 Depends: sudo, pulseaudio-utils, build-essential, make, git, wget, curl, devscripts, xz-utils, jq, reserialize, reprepro, sshpass, libarchive-tools, syslinux, syslinux-utils, cpio, genisoimage, qemu-system, qemu-utils, net-tools, dialog, socat, adduser
 Priority: optional
 Section: utils
-Filename: pool/main/a/autobuild/autobuild_3.2.0_all.deb
-Size: 64616
-SHA256: f16df7a0434856a616f2e65d55fad80b35a7e5c06bdb017ca3ee3bb7c8bbf3f3
-SHA1: d025559f8786b74486b97a2ed171e82ef8561204
-MD5sum: a7f1aae9d6ebadc2af965a471c92997c
+Filename: pool/main/a/autobuild/autobuild_3.2.1_all.deb
+Size: 64796
+SHA256: 8c3bd9263ceb2bae98d97967a486b98aeaca09b47fac66e4584942af862de45f
+SHA1: f128a006eabaf1eeefb4fa75a4d40ef7f568f407
+MD5sum: 7a7e565bee363d0cc84159414fb4daa6
 Description: Automatically build & distribute multi-arch Debian packages from source
  Autobuild builds Debian packages from Git sources and distributes them
 
 Package: autobuild-web
 Source: autobuild
-Version: 3.2.0
+Version: 3.2.1
 Architecture: all
 Maintainer: rail5 <andrew@rail5.org>
-Installed-Size: 107
-Depends: autobuild, php, php-sqlite3, apache2, libapache2-mod-php
+Installed-Size: 78
+Depends: autobuild, reserialize, php, php-sqlite3, apache2, libapache2-mod-php
 Recommends: httpd
 Priority: optional
 Section: utils
-Filename: pool/main/a/autobuild/autobuild-web_3.2.0_all.deb
-Size: 29772
-SHA256: eae34dae79005820f462fe1209f5f1a343dba40785b76d48b25d55063cbf9e03
-SHA1: 3f41b78b60ce66df0e45ecf719b22a9e0a6a5189
-MD5sum: 2047e04ccbb90df89b232f1cbda3eaaf
+Filename: pool/main/a/autobuild/autobuild-web_3.2.1_all.deb
+Size: 24944
+SHA256: 229bbe599805bea37f5e8dd7325f3bf217bfc777fedd4fa87bce55c196aead4f
+SHA1: d9832f211b3faab7c24fff2509e7032c56482ad6
+MD5sum: 1ad730c9ab7f35a34c6d0cd5297538d7
 Description: Web-based front-end for autobuild
  Web-based UI to configure and run autobuild
 
