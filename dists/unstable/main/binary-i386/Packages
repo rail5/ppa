@@ -15,36 +15,36 @@ Description: Adds a minimal/basic makefile to the current working directory
  Addmake adds a minimal/basic makefile to the current working directory
 
 Package: autobuild
-Version: 3.2.3
+Version: 3.2.4
 Architecture: all
 Maintainer: rail5 <andrew@rail5.org>
 Installed-Size: 170
-Depends: sudo, pulseaudio-utils, build-essential, make, git, wget, curl, devscripts, xz-utils, jq, reserialize, reprepro, sshpass, libarchive-tools, syslinux, syslinux-utils, cpio, genisoimage, qemu-system, qemu-utils, net-tools, dialog, socat, adduser
+Depends: sudo, pulseaudio-utils, build-essential, make, git, wget, curl, devscripts, gpg, xz-utils, jq, reserialize, reprepro, sshpass, libarchive-tools, syslinux, syslinux-utils, cpio, genisoimage, qemu-system, qemu-utils, net-tools, dialog, socat, adduser
 Priority: optional
 Section: utils
-Filename: pool/main/a/autobuild/autobuild_3.2.3_all.deb
-Size: 64960
-SHA256: 169577e600bb9af0684d5b0cdcde663da7accad1fbaea53304390f733bd57d2d
-SHA1: bb9dba5eb316493a9ae87827c231e78aecb0caf6
-MD5sum: 946f7c4d4c5b2955d3fb852c64b7dc6a
+Filename: pool/main/a/autobuild/autobuild_3.2.4_all.deb
+Size: 65004
+SHA256: 0df0da192a3d89108401d8c21b30bf287dc3e512ca214939767c002483592f28
+SHA1: 0391b572613955d683e62b33b78458fd698bd979
+MD5sum: ee94f56e634560b911d73a3e179e9dec
 Description: Automatically build & distribute multi-arch Debian packages from source
  Autobuild builds Debian packages from Git sources and distributes them
 
 Package: autobuild-web
 Source: autobuild
-Version: 3.2.3
+Version: 3.2.4
 Architecture: all
 Maintainer: rail5 <andrew@rail5.org>
-Installed-Size: 83
-Depends: autobuild, reserialize, php-fpm, php-sqlite3
+Installed-Size: 98
+Depends: autobuild, reserialize, php-fpm, php-sqlite3, gpg
 Recommends: apache2 | nginx
 Priority: optional
 Section: utils
-Filename: pool/main/a/autobuild/autobuild-web_3.2.3_all.deb
-Size: 26124
-SHA256: 05e68020fdf8a9806b9b04ad902dba04f227eb9c53e7ad521ff5adc2a485c08b
-SHA1: 25a2861887487f4cc0badcefdea158f833fc6b16
-MD5sum: b46f6ab0f14a9b364c02120b245067d5
+Filename: pool/main/a/autobuild/autobuild-web_3.2.4_all.deb
+Size: 29104
+SHA256: 1613d87952d5a20edeb470711da73fde9526eeced83ff87278aa1adb7bb8a169
+SHA1: 9de8f973209a3a51e525b24eee1950ed0bd64f47
+MD5sum: 80cfba2fcc647838493f79d66a9718b8
 Description: Web-based front-end for autobuild
  Web-based UI to configure and run autobuild
 
