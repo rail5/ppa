@@ -15,24 +15,24 @@ Description: Adds a minimal/basic makefile to the current working directory
  Addmake adds a minimal/basic makefile to the current working directory
 
 Package: autobuild
-Version: 3.2.4
+Version: 3.2.5
 Architecture: all
 Maintainer: rail5 <andrew@rail5.org>
 Installed-Size: 170
 Depends: sudo, pulseaudio-utils, build-essential, make, git, wget, curl, devscripts, gpg, xz-utils, jq, reserialize, reprepro, sshpass, libarchive-tools, syslinux, syslinux-utils, cpio, genisoimage, qemu-system, qemu-utils, net-tools, dialog, socat, adduser
 Priority: optional
 Section: utils
-Filename: pool/main/a/autobuild/autobuild_3.2.4_all.deb
-Size: 65004
-SHA256: 0df0da192a3d89108401d8c21b30bf287dc3e512ca214939767c002483592f28
-SHA1: 0391b572613955d683e62b33b78458fd698bd979
-MD5sum: ee94f56e634560b911d73a3e179e9dec
+Filename: pool/main/a/autobuild/autobuild_3.2.5_all.deb
+Size: 65080
+SHA256: 288d660e2566fc7902a103792e8857c0edb3cf6ce3f7a393c3f49291cc486eca
+SHA1: 50f2fea632ad25c6e449ff343fef5af03dc4e002
+MD5sum: cd84639c228346dae70194ae8e6a3c2b
 Description: Automatically build & distribute multi-arch Debian packages from source
  Autobuild builds Debian packages from Git sources and distributes them
 
 Package: autobuild-web
 Source: autobuild
-Version: 3.2.4
+Version: 3.2.5
 Architecture: all
 Maintainer: rail5 <andrew@rail5.org>
 Installed-Size: 98
@@ -40,11 +40,11 @@ Depends: autobuild, reserialize, php-fpm, php-sqlite3, gpg
 Recommends: apache2 | nginx
 Priority: optional
 Section: utils
-Filename: pool/main/a/autobuild/autobuild-web_3.2.4_all.deb
-Size: 29104
-SHA256: 1613d87952d5a20edeb470711da73fde9526eeced83ff87278aa1adb7bb8a169
-SHA1: 9de8f973209a3a51e525b24eee1950ed0bd64f47
-MD5sum: 80cfba2fcc647838493f79d66a9718b8
+Filename: pool/main/a/autobuild/autobuild-web_3.2.5_all.deb
+Size: 29176
+SHA256: cc61b3a48b24010745ae83b3476357de032715e4fe7ede6e1fd2304ce00d5a8a
+SHA1: 75723a29b60c15a3f18b0199e8d63a5b0109f63f
+MD5sum: c4866289a71d4c8f493ea15e2f42fd88
 Description: Web-based front-end for autobuild
  Web-based UI to configure and run autobuild
 
