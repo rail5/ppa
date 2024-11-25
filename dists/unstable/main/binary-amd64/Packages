@@ -15,36 +15,36 @@ Description: Adds a minimal/basic makefile to the current working directory
  Addmake adds a minimal/basic makefile to the current working directory
 
 Package: autobuild
-Version: 3.3.2
+Version: 3.3.3
 Architecture: all
 Maintainer: rail5 <andrew@rail5.org>
-Installed-Size: 182
+Installed-Size: 183
 Depends: sudo, pulseaudio-utils, build-essential, make, git, curl, devscripts, gpg, xz-utils, jq, reserialize, reprepro, sshpass, libarchive-tools, syslinux, syslinux-utils, cpio, genisoimage, qemu-system, qemu-utils, net-tools, dialog, socat, adduser
 Priority: optional
 Section: utils
-Filename: pool/main/a/autobuild/autobuild_3.3.2_all.deb
-Size: 67744
-SHA256: a55ca4734483666e25dd375b746888096c43f3ac32464807933ac5bd108a403c
-SHA1: bfb1ee81b82bd3205f4cfc7d5a6f3e38a6088b0f
-MD5sum: d29f4663dda14f4f731782dd6ed4a231
+Filename: pool/main/a/autobuild/autobuild_3.3.3_all.deb
+Size: 68096
+SHA256: f7a93ef8092a1fc702683112bfb77dd855ff0d0f2a5d37c7c1eab7875cf4949e
+SHA1: 2ec36a5e222389657aecd64b58ac65bd8bf5038f
+MD5sum: 526fcc858a28e3a6c687356cdeb847ac
 Description: Automatically build & distribute multi-arch Debian packages from source
  Autobuild builds Debian packages from Git sources and distributes them
 
 Package: autobuild-web
 Source: autobuild
-Version: 3.3.2
+Version: 3.3.3
 Architecture: all
 Maintainer: rail5 <andrew@rail5.org>
-Installed-Size: 184
+Installed-Size: 186
 Depends: autobuild, reserialize, gpg, php-fpm, php-sqlite3, php-gregwar-captcha
 Recommends: apache2 | nginx
 Priority: optional
 Section: utils
-Filename: pool/main/a/autobuild/autobuild-web_3.3.2_all.deb
-Size: 43056
-SHA256: 479e92416cf9e0b0ebbd44074eab44ad8b116b96585213facb25211540ff1ebd
-SHA1: 49c3136fa51cd0c13cba708ee2a5c350d1d304e0
-MD5sum: 6f49f2edd0f9fa12693f6b7e41d8c681
+Filename: pool/main/a/autobuild/autobuild-web_3.3.3_all.deb
+Size: 43692
+SHA256: 85cbc63c25d10a00fb27093f9c6357e34b1dfefcc589a1be6f3af96fccbd4f90
+SHA1: adb7ab8fe57e5f1213bad394a469d62526c2b72c
+MD5sum: 1e3f1aaf63f3afe50d73233dc497554b
 Description: Web-based front-end for autobuild
  Web-based UI to configure and run autobuild
 
