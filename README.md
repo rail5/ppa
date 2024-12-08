@@ -10,11 +10,8 @@ This repository contains the following packages for **amd64**, **i386**, and **a
 | [autobuild](https://github.com/rail5/autobuild)               | Automatically builds & distributes Debian packages                    |
 | [autobuild-web](https://github.com/rail5/autobuild)           | A web front-end for autobuild                                         |
 | [ocrshot](https://github.com/rail5/ocrshot)                   | Copies text from videos & photos by screenshotting                    |
-| [randomtext](https://github.com/rail5/randomtext)             | Converts output from */dev/urandom* to printable ASCII                |
 | [evolution-notify](https://github.com/rail5/evolution-notify) | Provides a systray icon displaying unread email count for *Evolution* |
 | [stepgrampa](https://github.com/rail5/stepgrampa)             | Replaces MATE's *engrampa* with GNOME's *file-roller*                 |
-| [stranslate](https://github.com/rail5/stranslate)             | Translates text from your terminal using a privacy-friendly backend   |
-| [addmake](https://github.com/rail5/addmake)                   | Adds a minimal makefile to the current working directory              |
 
 You can configure Debian to use this repository as follows:
 
