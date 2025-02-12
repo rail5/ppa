@@ -98,18 +98,18 @@ Description: Copies text to clipboard from screenshot via Optical Character Reco
  ocrshot allows you to copy-and-paste text from videos, pictures, etc
 
 Package: polonius
-Version: 0.5.14
+Version: 0.5.15
 Architecture: amd64
 Maintainer: rail5 <andrew@rail5.org>
-Installed-Size: 527
+Installed-Size: 543
 Depends: libstdc++6, libgcc-s1, libc6, libncurses6, libncursesw6
 Priority: optional
 Section: utils
-Filename: pool/main/p/polonius/polonius_0.5.14_amd64.deb
-Size: 143108
-SHA256: 33c022a65f98eb1affbd7f592715ff52b0ee87018a1566be88c14adcc069b484
-SHA1: 515e9076ea6a4e2d7716ab42246e17c21b4908ce
-MD5sum: 3846f0b4b5240e22a056739ccd79c8b5
+Filename: pool/main/p/polonius/polonius_0.5.15_amd64.deb
+Size: 145936
+SHA256: 0be230ab1db0118af3388b9371e3faf933b94affb6956d4c8e0e9f118f1c80db
+SHA1: d93a9f21d4bad475dbacdebc2ad9419e5e376f23
+MD5sum: de2fe2447641236af59d90310f12642e
 Description: A uniquely memory-efficient text editor
 
 Package: stepgrampa
