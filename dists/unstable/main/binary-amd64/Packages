@@ -1,34 +1,34 @@
 Package: autobuild
-Version: 3.3.3
+Version: 3.3.4
 Architecture: all
 Maintainer: rail5 <andrew@rail5.org>
 Installed-Size: 183
 Depends: sudo, pulseaudio-utils, build-essential, make, git, curl, devscripts, gpg, xz-utils, jq, reserialize, reprepro, sshpass, libarchive-tools, syslinux, syslinux-utils, cpio, genisoimage, qemu-system, qemu-utils, net-tools, dialog, socat, adduser
 Priority: optional
 Section: utils
-Filename: pool/main/a/autobuild/autobuild_3.3.3_all.deb
-Size: 68096
-SHA256: f7a93ef8092a1fc702683112bfb77dd855ff0d0f2a5d37c7c1eab7875cf4949e
-SHA1: 2ec36a5e222389657aecd64b58ac65bd8bf5038f
-MD5sum: 526fcc858a28e3a6c687356cdeb847ac
+Filename: pool/main/a/autobuild/autobuild_3.3.4_all.deb
+Size: 68204
+SHA256: 1a403651186f7ced189eb475fc7e896c046fc9687355446bfadcd30a1cec3ae8
+SHA1: d1eb91cf1c7c533b5a2b1f53553a03f9e7c70bf7
+MD5sum: 891af154d3975ef0682dec62145e49c8
 Description: Automatically build & distribute multi-arch Debian packages from source
  Autobuild builds Debian packages from Git sources and distributes them
 
 Package: autobuild-web
 Source: autobuild
-Version: 3.3.3
+Version: 3.3.4
 Architecture: all
 Maintainer: rail5 <andrew@rail5.org>
-Installed-Size: 186
+Installed-Size: 187
 Depends: autobuild, reserialize, gpg, php-fpm, php-sqlite3, php-gregwar-captcha
 Recommends: apache2 | nginx
 Priority: optional
 Section: utils
-Filename: pool/main/a/autobuild/autobuild-web_3.3.3_all.deb
-Size: 43692
-SHA256: 85cbc63c25d10a00fb27093f9c6357e34b1dfefcc589a1be6f3af96fccbd4f90
-SHA1: adb7ab8fe57e5f1213bad394a469d62526c2b72c
-MD5sum: 1e3f1aaf63f3afe50d73233dc497554b
+Filename: pool/main/a/autobuild/autobuild-web_3.3.4_all.deb
+Size: 43956
+SHA256: 7362f9fabb3fc55934113e2e2b1871bc71b6792c473cbb10e33080caa737ea1c
+SHA1: c0b2ff62a68f43ec8f9496d77bcc69c61518a13d
+MD5sum: 2e9f8edbedd64928a474036c90a5da02
 Description: Web-based front-end for autobuild
  Web-based UI to configure and run autobuild
 
