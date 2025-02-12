@@ -9,8 +9,8 @@ Build-Depends: debhelper (>= 10), pandoc, antlr4, libantlr4-runtime-dev, perl
 Package-List:
  bpp deb utils optional arch=any
 Checksums-Sha1:
- a688271af090058deb0cda8905918ac4b3585e02 466492 bpp_0.1.tar.xz
+ a20a56af89ba25e0e968b89f55d83d6e30a00b4d 466592 bpp_0.1.tar.xz
 Checksums-Sha256:
- 05323a9e6d58e9ea1eecd55da1402ee2272be8ba0b7e54dac8d16eec606a3491 466492 bpp_0.1.tar.xz
+ 99f3fd9b8606fbbdaf9965472ee10d40272fdbd193c12b47508b52e4c1df0a4a 466592 bpp_0.1.tar.xz
 Files:
- 0d238bb2942cdb1bd2f5d8cba8e5638c 466492 bpp_0.1.tar.xz
+ 38a406b6e76ad2c8a3696ceb650034cc 466592 bpp_0.1.tar.xz

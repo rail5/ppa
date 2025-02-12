@@ -53,14 +53,15 @@ Package: bpp
 Version: 0.1
 Architecture: amd64
 Maintainer: rail5 <andrew@rail5.org>
-Installed-Size: 19
+Installed-Size: 1472
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.4), libstdc++6 (>= 12)
 Priority: optional
 Section: utils
 Filename: pool/main/b/bpp/bpp_0.1_amd64.deb
-Size: 9096
-SHA256: e7641201c42b0b268453ff4fda2cf02710732a7fe2392f0d940e7375e4d0290f
-SHA1: 5b8c1f31f7e12bc2f1bd24df01835f024f329517
-MD5sum: 5d47bec8c78d13a29e8a943492aeccac
+Size: 412572
+SHA256: aa91e2d0260392c4b28ca943e9b86899c265fccef2eae576d4ce4266dc383541
+SHA1: 10f3610e926ea6bfa182f33f45679004801e6398
+MD5sum: cd4570086b450cdb22124aee5e69092f
 Description: Bash with classes
  Bash++ is a superset of Bash which adds support for object orientation
 
