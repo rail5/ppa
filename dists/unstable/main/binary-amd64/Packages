@@ -50,18 +50,18 @@ Description: GUI Front-end for Liesel
  in "pamphlet" style
 
 Package: bpp
-Version: 0.1
+Version: 0.1.1
 Architecture: amd64
 Maintainer: rail5 <andrew@rail5.org>
 Installed-Size: 1472
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.4), libstdc++6 (>= 12)
 Priority: optional
 Section: utils
-Filename: pool/main/b/bpp/bpp_0.1_amd64.deb
-Size: 412572
-SHA256: aa91e2d0260392c4b28ca943e9b86899c265fccef2eae576d4ce4266dc383541
-SHA1: 10f3610e926ea6bfa182f33f45679004801e6398
-MD5sum: cd4570086b450cdb22124aee5e69092f
+Filename: pool/main/b/bpp/bpp_0.1.1_amd64.deb
+Size: 412700
+SHA256: 656cf7ea65aae53e529f0bd765aa8e5f5cd09a6946da73d24a4b1e93bbabc610
+SHA1: 18c43a1843a39910470e2d070b6e3db82e973f39
+MD5sum: 555cd5b8bc825331ec966f8ebd987e3a
 Description: Bash with classes
  Bash++ is a superset of Bash which adds support for object orientation
 
