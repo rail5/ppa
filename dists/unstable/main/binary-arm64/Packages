@@ -50,18 +50,18 @@ Description: GUI Front-end for Liesel
  in "pamphlet" style
 
 Package: bpp
-Version: 0.1.1
+Version: 0.2.0
 Architecture: arm64
 Maintainer: rail5 <andrew@rail5.org>
-Installed-Size: 1432
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12)
+Installed-Size: 1434
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 12), libstd-bpp
 Priority: optional
 Section: utils
-Filename: pool/main/b/bpp/bpp_0.1.1_arm64.deb
-Size: 364048
-SHA256: 3f5a6c3cb4f3935f09c563ae46e35255b737a6577be9a75122054b3148a72ae8
-SHA1: e4e53d8c4f50f053f6d440bf12f125ec8a551f9f
-MD5sum: 01270d3da33b3eeeff6d2cc5ec5b4258
+Filename: pool/main/b/bpp/bpp_0.2.0_arm64.deb
+Size: 367660
+SHA256: 8d52e6a1007d6d83fed29a12dec300e93baf9d667472c0281c5d6c1ebe598c72
+SHA1: 3ac88393bd81032baee44360d93afb0bdc83872c
+MD5sum: fd33e0447fd2458cda8ad10104f202f6
 Description: Bash with classes
  Bash++ is a superset of Bash which adds support for object orientation
 
@@ -80,6 +80,22 @@ SHA1: 8ada21c76de08699903a1b0475092d0b90515110
 MD5sum: 84ac61060d7fd0518742687376fe70c6
 Description: Provides a systray icon displaying unread email count in Evolution
   evolution-notify provides a systray icon which displays your unread email count
+
+Package: libstd-bpp
+Source: bpp
+Version: 0.2.0
+Architecture: all
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 54
+Priority: optional
+Section: utils
+Filename: pool/main/b/bpp/libstd-bpp_0.2.0_all.deb
+Size: 5764
+SHA256: d6f4e837863bfa531e1d168d7f7b9c9520f1aa47304f94f8f418a4d85d5d5754
+SHA1: 5337f0c7d44de2e85458d82c7eeaaeb1775ba14b
+MD5sum: 11e576bf3f053219435ba5473dd88ad2
+Description: Standard library for Bash++
+ The standard library for Bash++ (common data structures and algorithms)
 
 Package: liesel
 Version: 11.3.8
