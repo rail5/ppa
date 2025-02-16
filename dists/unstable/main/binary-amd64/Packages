@@ -50,18 +50,18 @@ Description: GUI Front-end for Liesel
  in "pamphlet" style
 
 Package: bpp
-Version: 0.2.5
+Version: 0.2.6
 Architecture: amd64
 Maintainer: rail5 <andrew@rail5.org>
 Installed-Size: 1526
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.4), libstdc++6 (>= 12), libstd-bpp
 Priority: optional
 Section: utils
-Filename: pool/main/b/bpp/bpp_0.2.5_amd64.deb
-Size: 424188
-SHA256: 5491702eae309acfbd30e541e09784a5fcdd235274aae6bc042743b4d7a9ff09
-SHA1: 00b7fcf93dac86f93b096e99deb84a948f05a695
-MD5sum: a91266d11f8ac02778f5a22f1a974949
+Filename: pool/main/b/bpp/bpp_0.2.6_amd64.deb
+Size: 424816
+SHA256: ccd996b5457333ee4544a879bd6cddc9a35a2f59e4aaa0e0980f688c1089e15c
+SHA1: 74cdea4437f3e3846ba1994f4acaa0cd413738e8
+MD5sum: 4283435fd034bda06c90855c6d4daf42
 Description: Bash with classes
  Bash++ is a superset of Bash which adds support for object orientation
 
@@ -83,17 +83,17 @@ Description: Provides a systray icon displaying unread email count in Evolution
 
 Package: libstd-bpp
 Source: bpp
-Version: 0.2.5
+Version: 0.2.6
 Architecture: all
 Maintainer: rail5 <andrew@rail5.org>
 Installed-Size: 57
 Priority: optional
 Section: utils
-Filename: pool/main/b/bpp/libstd-bpp_0.2.5_all.deb
-Size: 7028
-SHA256: 3a1fec4c783d6405a3b13301d89b555cf21d4195659536ef2bd358178ebb436e
-SHA1: 88b1c40224c897d2d513516612b5b1b11f3b847a
-MD5sum: 4244949f0c1539b8e974d03404e3ed73
+Filename: pool/main/b/bpp/libstd-bpp_0.2.6_all.deb
+Size: 7296
+SHA256: ebe4ae9e12b8e1fc6342ffbc89953629e0c2e7cf0d04a5c50dbe4637f5473585
+SHA1: f11d3287dbdeb31db6282df51af9278b05c35b6c
+MD5sum: 86778d4bfcf7497b0c0cfdd6018377fa
 Description: Standard library for Bash++
  The standard library for Bash++ (common data structures and algorithms)
 
