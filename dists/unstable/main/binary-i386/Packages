@@ -67,17 +67,17 @@ Description: Bash with classes
 
 Package: libstd-bpp
 Source: bpp
-Version: 0.4.1
+Version: 0.4.2
 Architecture: all
 Maintainer: rail5 <andrew@rail5.org>
 Installed-Size: 49
 Priority: optional
 Section: utils
-Filename: pool/main/b/bpp/libstd-bpp_0.4.1_all.deb
-Size: 9916
-SHA256: e2087cccc457739e0b12c934ba66175bba7012c4d0da60d7d45f99e8da543e66
-SHA1: ba65ce9ee23206f336f7803f2a1868b9d1c3458d
-MD5sum: 53986705f665a66d670f10ee23833f78
+Filename: pool/main/b/bpp/libstd-bpp_0.4.2_all.deb
+Size: 10256
+SHA256: 74bd5c2a8af87f0994453318f6cd24f0f5daec56d80d1588f2f73114dba1d24a
+SHA1: 93b495c8678a35a9219df02fb1f96ee361498f6e
+MD5sum: ab6e069d220b1dc5025cc71fc492b1eb
 Description: Standard library for Bash++
  The standard library for Bash++ (common data structures and algorithms)
 
