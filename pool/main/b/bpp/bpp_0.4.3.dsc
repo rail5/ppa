@@ -2,7 +2,7 @@ Format: 3.0 (native)
 Source: bpp
 Binary: bpp, libstd-bpp
 Architecture: any all
-Version: 0.4.2
+Version: 0.4.3
 Maintainer: rail5 <andrew@rail5.org>
 Standards-Version: 3.9.3
 Build-Depends: debhelper (>= 10), pandoc, antlr4, libantlr4-runtime-dev, perl
@@ -10,8 +10,8 @@ Package-List:
  bpp deb utils optional arch=any
  libstd-bpp deb utils optional arch=all
 Checksums-Sha1:
- 5fe5f5bd72967c547c2be388c3392c4467f3d5bc 505492 bpp_0.4.2.tar.xz
+ 0ba96692b9d26b5709de7108746ed487b662d0aa 506272 bpp_0.4.3.tar.xz
 Checksums-Sha256:
- f7609cf94871996d9a2c1006b889afd5c62518a0a545551723dc38ed84f3bec1 505492 bpp_0.4.2.tar.xz
+ 53ac8cf5fff577fe091dfc3eba5186b2804b0f9d74bb1785f1da150770ae5aba 506272 bpp_0.4.3.tar.xz
 Files:
- ccf17229f2fb521828142b9218f0f878 505492 bpp_0.4.2.tar.xz
+ 444fff324e738a4afd17fcd8d545d16f 506272 bpp_0.4.3.tar.xz
