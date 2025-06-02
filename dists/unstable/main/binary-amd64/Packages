@@ -114,19 +114,25 @@ Description: Copies text to clipboard from screenshot via Optical Character Reco
  ocrshot allows you to copy-and-paste text from videos, pictures, etc
 
 Package: polonius
-Version: 0.5.16
+Version: 0.6.0
 Architecture: amd64
 Maintainer: rail5 <andrew@rail5.org>
-Installed-Size: 548
-Depends: libstdc++6, libgcc-s1, libc6, libncurses6, libncursesw6
+Installed-Size: 518
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
 Priority: optional
 Section: utils
-Filename: pool/main/p/polonius/polonius_0.5.16_amd64.deb
-Size: 146636
-SHA256: a3b011148414dd2600f441c411fbc58368577d426764cd3266ba776cb6322155
-SHA1: 242bc4baffd57862f87ad3b35357362a5639ef67
-MD5sum: abd9f8787087efae1a5b60f8cf54ced0
-Description: A uniquely memory-efficient text editor
+Filename: pool/main/p/polonius/polonius_0.6.0_amd64.deb
+Size: 117520
+SHA256: ae5830da5b853007aee0563256424ff3124aa6baf98c739202d5039af11ee220
+SHA1: a4f3512c825ce7e129fbe710ef6f4c86f07408fa
+MD5sum: 00b82d300e9db9ba0a0b19211bd1899e
+Description: Text editor for very large files
+ Polonius is a text editor for very large files, designed to handle files
+ that are too large for traditional text editors. It edits files in-place
+ rather than loading them into memory, allowing it to work with files
+ that are larger than available RAM.
+ .
+ This package contains the polonius binary and its dependencies.
 
 Package: stepgrampa
 Version: 1.2
