@@ -33,18 +33,18 @@ Description: Web-based front-end for autobuild
  Web-based UI to configure and run autobuild
 
 Package: bookthief
-Version: 11.2.6
+Version: 11.3.0
 Architecture: arm64
 Maintainer: rail5 <andrew@rail5.org>
 Installed-Size: 3586
 Depends: liesel (>= 10.1), libc6, libgtk2.0-0, libx11-6, libglib2.0-0, libpango-1.0-0, libpangocairo-1.0-0, libfontconfig1, libxrender1, libxinerama1, libxi6, libxrandr2, libxcursor1, libxcomposite1, libxdamage1, libxfixes3, libxext6, libxcb1, libpangoft2-1.0-0, libpcre3, libfribidi0, libthai0, libharfbuzz0b, libpixman-1-0, libfreetype6, libpng16-16, libxcb-shm0, libxcb-render0, zlib1g, libmount1, libexpat1, libuuid1, libxau6, libxdmcp6, libdatrie1, libgraphite2-3, libblkid1, libbsd0
 Priority: optional
 Section: utils
-Filename: pool/main/b/bookthief/bookthief_11.2.6_arm64.deb
-Size: 767556
-SHA256: 2c81ee5930cd50a6c5c346e4f4e83cb567b17acdcbe9458d3a830d8106f08a90
-SHA1: b03d99844a9cde0f1f99b98347610b1acaf96cfe
-MD5sum: d9377036f67bfae635cd898e8eb69481
+Filename: pool/main/b/bookthief/bookthief_11.3.0_arm64.deb
+Size: 767324
+SHA256: 2cfab7c8ec2aa724580ceedd55f3a46b5df653b1a1a1cfbd8a2272ee263f8caf
+SHA1: ac245aa9b0c6c3ae54327cd1b6718796eeeb965b
+MD5sum: 1d25fe48a828c72604943a92819f1674
 Description: GUI Front-end for Liesel
  Prepares PDFs to be home-printed
  in "pamphlet" style
@@ -82,18 +82,18 @@ Description: Standard library for Bash++
  The standard library for Bash++ (common data structures and algorithms)
 
 Package: liesel
-Version: 11.3.8
+Version: 11.3.9
 Architecture: arm64
 Maintainer: rail5 <andrew@rail5.org>
 Installed-Size: 151
 Depends: libgraphicsmagick-q16-3, libgraphicsmagick++-q16-12, libhpdf-2.3.0, libpoppler-cpp0v5, libfontconfig1, libc6, libgcc-s1, libstdc++6
 Priority: optional
 Section: utils
-Filename: pool/main/l/liesel/liesel_11.3.8_arm64.deb
-Size: 37600
-SHA256: 74eee0bee7ed4c0dead4df1fb6e7392541379cd524e6b15e9d8c67059c861207
-SHA1: 967ace0ef34e742323f6d4e94fdb631eff60f1ab
-MD5sum: 128ff846c5e0e2a7f3d77d766ce82ff2
+Filename: pool/main/l/liesel/liesel_11.3.9_arm64.deb
+Size: 37252
+SHA256: 57f58224ed9dee38dd2ff7ffc22043822a88d89c0e1707be9d53a1556690d743
+SHA1: 4dff0c36ae57fc62adeee2d0cca34b4e87d1db89
+MD5sum: 883f24d07ee08058858ca819dc12d47e
 Description: Converts PDFs to booklets
  Liesel transforms ordinary PDFs into booklets for home or professional printing
 
