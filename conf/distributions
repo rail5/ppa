@@ -1,0 +1,8 @@
+Origin: rail5
+Label: rail5
+Codename: unstable
+Architectures: source amd64 arm64
+Components: main
+Description: Apt repository for rail5
+SignWith: 421C94D4872B3EA852F6EC024C9AFEFA324599EA
+Contents: .gz
