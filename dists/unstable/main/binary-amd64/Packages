@@ -32,6 +32,55 @@ MD5sum: 7542aad957c14e887cf65ce17e11abe4
 Description: Web-based front-end for autobuild
  Web-based UI to configure and run autobuild
 
+Package: bookthief
+Version: 11.3.0
+Architecture: amd64
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 3159
+Depends: liesel (>= 10.1), libc6, libgtk2.0-0, libx11-6, libglib2.0-0, libpango-1.0-0, libpangocairo-1.0-0, libfontconfig1, libxrender1, libxinerama1, libxi6, libxrandr2, libxcursor1, libxcomposite1, libxdamage1, libxfixes3, libxext6, libxcb1, libpangoft2-1.0-0, libpcre3, libfribidi0, libthai0, libharfbuzz0b, libpixman-1-0, libfreetype6, libpng16-16, libxcb-shm0, libxcb-render0, zlib1g, libmount1, libexpat1, libuuid1, libxau6, libxdmcp6, libdatrie1, libgraphite2-3, libblkid1, libbsd0
+Priority: optional
+Section: utils
+Filename: pool/main/b/bookthief/bookthief_11.3.0_amd64.deb
+Size: 851720
+SHA256: 15ac4d6a20faa51eb8476325be34eeabdae20014fd1f849e2530075dfefc019a
+SHA1: adf01e9c54993d54677b505c8d1dab4573825efc
+MD5sum: 97dd24c6a63f4a392ad6f55de628631b
+Description: GUI Front-end for Liesel
+ Prepares PDFs to be home-printed
+ in "pamphlet" style
+
+Package: libstd-bpp
+Source: bpp
+Version: 0.5.0
+Architecture: all
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 216
+Priority: optional
+Section: utils
+Filename: pool/main/b/bpp/libstd-bpp_0.5.0_all.deb
+Size: 20272
+SHA256: 75d153e740865afca95c0eda65188c1bfdd0ec12f071b3e97a25ddafe402cf74
+SHA1: 6515cb622a2ea3154dc9e52fb0842c8aa185cbd7
+MD5sum: 807562f495543463151fcf3b4a391a91
+Description: Standard library for Bash++
+ The standard library for Bash++ (common data structures and algorithms)
+
+Package: liesel
+Version: 11.3.9
+Architecture: amd64
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 108
+Depends: libgraphicsmagick-q16-3, libgraphicsmagick++-q16-12, libhpdf-2.3.0, libpoppler-cpp0v5, libfontconfig1, libc6, libgcc-s1, libstdc++6
+Priority: optional
+Section: utils
+Filename: pool/main/l/liesel/liesel_11.3.9_amd64.deb
+Size: 41188
+SHA256: e3ec496c96aac759f7b5aa7a28d041cfb36858f48f5e8044a82df7f97e2842f9
+SHA1: 5c051aeeb61ece11cd048dc54b807b295c912e35
+MD5sum: c26bef84a2c92d24ee00e86d22ff5ee0
+Description: Converts PDFs to booklets
+ Liesel transforms ordinary PDFs into booklets for home or professional printing
+
 Package: ocrshot
 Version: 1.5.1
 Architecture: all
