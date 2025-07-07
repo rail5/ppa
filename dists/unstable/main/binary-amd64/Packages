@@ -49,6 +49,22 @@ Description: GUI Front-end for Liesel
  Prepares PDFs to be home-printed
  in "pamphlet" style
 
+Package: bpp
+Version: 0.5.0
+Architecture: amd64
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 1877
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.4), libstdc++6 (>= 12), libstd-bpp
+Priority: optional
+Section: utils
+Filename: pool/main/b/bpp/bpp_0.5.0_amd64.deb
+Size: 524076
+SHA256: 142d50fa8a1dd1c9cf41703b9b5824d4689f17ea667c1eebf1cf5999c19b47a1
+SHA1: b0b1576c9b0c738f96333aab477fd03e70990f84
+MD5sum: 953b303df7dbb0124381a270aac6593b
+Description: Bash with classes
+ Bash++ is a superset of Bash which adds support for object orientation
+
 Package: libstd-bpp
 Source: bpp
 Version: 0.5.0
