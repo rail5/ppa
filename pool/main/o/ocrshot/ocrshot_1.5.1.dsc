@@ -9,8 +9,8 @@ Build-Depends: debhelper (>= 13.0.0)
 Package-List:
  ocrshot deb utils optional arch=all
 Checksums-Sha1:
- 6555345d90c8c8e52269e6bfd750b11950c662a3 1295760 ocrshot_1.5.1.tar.xz
+ 736674858348dc3546be7d349fcd3b5065fc259a 1306840 ocrshot_1.5.1.tar.xz
 Checksums-Sha256:
- c183f3c7ba4b0ca822ec84adb9b7fd7e0054aa218b748d6f3d22962316bb0975 1295760 ocrshot_1.5.1.tar.xz
+ c399aad76ae4fa3275ad4ca3f3d5e75e5cea8989ffeb915dd5ea0bf39de85c93 1306840 ocrshot_1.5.1.tar.xz
 Files:
- 064aef906fa472dd1e3e1336b4c3dde3 1295760 ocrshot_1.5.1.tar.xz
+ 7a44b1f9ff19e672b325365e37a264dc 1306840 ocrshot_1.5.1.tar.xz

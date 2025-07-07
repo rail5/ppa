@@ -1,0 +1,67 @@
+Package: autobuild
+Version: 3.3.5
+Architecture: all
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 183
+Depends: sudo, pulseaudio-utils, build-essential, make, git, curl, devscripts, gpg, xz-utils, jq, reserialize, reprepro, sshpass, libarchive-tools, syslinux, syslinux-utils, cpio, genisoimage, qemu-system, qemu-utils, net-tools, dialog, socat, adduser
+Priority: optional
+Section: utils
+Filename: pool/main/a/autobuild/autobuild_3.3.5_all.deb
+Size: 68212
+SHA256: ce38a11f9b03326c44704c33893112322164fc1781e4dd88432a404e1f6f8888
+SHA1: be3700920737c655aa143cda40d2014c614f2b0c
+MD5sum: 7b1e6fda3dcd122cdbbef0aef1c0e1a4
+Description: Automatically build & distribute multi-arch Debian packages from source
+ Autobuild builds Debian packages from Git sources and distributes them
+
+Package: autobuild-web
+Source: autobuild
+Version: 3.3.5
+Architecture: all
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 189
+Depends: autobuild, reserialize, gpg, php-fpm, php-sqlite3, php-gregwar-captcha
+Recommends: apache2 | nginx
+Priority: optional
+Section: utils
+Filename: pool/main/a/autobuild/autobuild-web_3.3.5_all.deb
+Size: 44264
+SHA256: 48fc08d5d007e54c84cbb6b9348a5e9d363bc470468414630fb1e5bef681328a
+SHA1: 452a855effa707f534be8eca2643e43d5bb00304
+MD5sum: 7542aad957c14e887cf65ce17e11abe4
+Description: Web-based front-end for autobuild
+ Web-based UI to configure and run autobuild
+
+Package: ocrshot
+Version: 1.5.1
+Architecture: all
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 14
+Depends: gnome-screenshot, xclip, tesseract-ocr, graphicsmagick-imagemagick-compat
+Priority: optional
+Section: utils
+Filename: pool/main/o/ocrshot/ocrshot_1.5.1_all.deb
+Size: 3556
+SHA256: d56b583162336b55115962a73c1350a26ccbbc98418595a8f63d016a67dc590a
+SHA1: c881a5696c8d2bea826576722d8d0ed17e60a7db
+MD5sum: 1e842360200479469ac7f71a3226ad1e
+Description: Copies text to clipboard from screenshot via Optical Character Recognition
+ ocrshot allows you to copy-and-paste text from videos, pictures, etc
+
+Package: stepgrampa
+Version: 1.2
+Architecture: all
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 15
+Depends: file-roller, caja, engrampa
+Enhances: engrampa
+Priority: optional
+Section: utils
+Filename: pool/main/s/stepgrampa/stepgrampa_1.2_all.deb
+Size: 2336
+SHA256: a72fe959ac49976c1974ea7552a9b0292e2a7d9674614a2fd1ef4ff5386a4440
+SHA1: 1ff6a80f74a5dbfeb315e07085364748dd801d8e
+MD5sum: 59429b3c427bdd63a3ad1407eb57acd7
+Description: Replaces MATE's engrampa with GNOME's file-roller
+  Replaces MATE's engrampa with GNOME's file-roller for use in caja
+
