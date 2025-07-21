@@ -5,6 +5,7 @@ This repository contains the following packages for **amd64** and **arm64** arch
 | Package                                                       | Description                                                           |
 | ------------------------------------------------------------- | --------------------------------------------------------------------- |
 | [bpp](https://github.com/rail5/bashpp)                        | [Bash++: The Bourne-Again Shell with classes](https://bpp.sh)         |
+| [bpp-lsp](https://github.com/rail5/bashpp)                    | Bash++ Language Server                                                |
 | [autobuild](https://github.com/rail5/autobuild)               | Automatically builds & distributes Debian packages                    |
 | [autobuild-web](https://github.com/rail5/autobuild)           | A web front-end for autobuild                                         |
 | [polonius](https://github.com/rail5/polonius)                 | A text editor for very large files                                    |
