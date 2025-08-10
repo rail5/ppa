@@ -113,18 +113,18 @@ Description: Standard library for Bash++
  which includes common data structures and algorithms.
 
 Package: liesel
-Version: 11.3.9
+Version: 11.3.10
 Architecture: arm64
 Maintainer: rail5 <andrew@rail5.org>
-Installed-Size: 151
-Depends: libgraphicsmagick-q16-3, libgraphicsmagick++-q16-12, libhpdf-2.3.0, libpoppler-cpp0v5, libfontconfig1, libc6, libgcc-s1, libstdc++6
+Installed-Size: 152
+Depends: libgraphicsmagick-q16-3 | libgraphicsmagick-q16-3t64, libgraphicsmagick++-q16-12 | libgraphicsmagick++-q16-12t64, libhpdf-2.3.0, libpoppler-cpp0v5 | libpoppler-cpp2, libfontconfig1, libc6, libgcc-s1, libstdc++6
 Priority: optional
 Section: utils
-Filename: pool/main/l/liesel/liesel_11.3.9_arm64.deb
-Size: 37252
-SHA256: 57f58224ed9dee38dd2ff7ffc22043822a88d89c0e1707be9d53a1556690d743
-SHA1: 4dff0c36ae57fc62adeee2d0cca34b4e87d1db89
-MD5sum: 883f24d07ee08058858ca819dc12d47e
+Filename: pool/main/l/liesel/liesel_11.3.10_arm64.deb
+Size: 37372
+SHA256: 86f7284bb565e040cc96728d817e8a9ae9a7d58f111bc420e277887640cbf0fd
+SHA1: 4826e805ada27c4a124f79f4da141ff49eaa8998
+MD5sum: 46846133e5a5588cfa9cc1754a84bc1f
 Description: Converts PDFs to booklets
  Liesel transforms ordinary PDFs into booklets for home or professional printing
 
