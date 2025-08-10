@@ -33,18 +33,18 @@ Description: Web-based front-end for autobuild
  Web-based UI to configure and run autobuild
 
 Package: bookthief
-Version: 11.3.0
+Version: 11.3.1
 Architecture: arm64
 Maintainer: rail5 <andrew@rail5.org>
-Installed-Size: 3586
-Depends: liesel (>= 10.1), libc6, libgtk2.0-0, libx11-6, libglib2.0-0, libpango-1.0-0, libpangocairo-1.0-0, libfontconfig1, libxrender1, libxinerama1, libxi6, libxrandr2, libxcursor1, libxcomposite1, libxdamage1, libxfixes3, libxext6, libxcb1, libpangoft2-1.0-0, libpcre3, libfribidi0, libthai0, libharfbuzz0b, libpixman-1-0, libfreetype6, libpng16-16, libxcb-shm0, libxcb-render0, zlib1g, libmount1, libexpat1, libuuid1, libxau6, libxdmcp6, libdatrie1, libgraphite2-3, libblkid1, libbsd0
+Installed-Size: 3660
+Depends: liesel (>= 10.1), libc6, libgtk2.0-0, libx11-6, libglib2.0-0, libpango-1.0-0, libpangocairo-1.0-0, libfontconfig1, libxrender1, libxinerama1, libxi6, libxrandr2, libxcursor1, libxcomposite1, libxdamage1, libxfixes3, libxext6, libxcb1, libpangoft2-1.0-0, libfribidi0, libthai0, libharfbuzz0b, libpixman-1-0, libfreetype6, libpng16-16, libxcb-shm0, libxcb-render0, zlib1g, libmount1, libexpat1, libuuid1, libxau6, libxdmcp6, libdatrie1, libgraphite2-3, libblkid1, libbsd0
 Priority: optional
 Section: utils
-Filename: pool/main/b/bookthief/bookthief_11.3.0_arm64.deb
-Size: 767324
-SHA256: 2cfab7c8ec2aa724580ceedd55f3a46b5df653b1a1a1cfbd8a2272ee263f8caf
-SHA1: ac245aa9b0c6c3ae54327cd1b6718796eeeb965b
-MD5sum: 1d25fe48a828c72604943a92819f1674
+Filename: pool/main/b/bookthief/bookthief_11.3.1_arm64.deb
+Size: 810728
+SHA256: 7a8caa27ddd790363fa06ead95cdc86bd36b0da0e07343f96d7b22dc1c589d9a
+SHA1: d193fabde90e0e0c4ba32ee421a13bc8857c8cc7
+MD5sum: e928b0c2c6ba833e0dd4cd973123a2eb
 Description: GUI Front-end for Liesel
  Prepares PDFs to be home-printed
  in "pamphlet" style
