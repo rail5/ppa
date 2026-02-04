@@ -50,19 +50,19 @@ Description: GUI Front-end for Liesel
  in "pamphlet" style
 
 Package: bpp
-Version: 0.8.3
+Version: 0.8.4
 Architecture: amd64
 Maintainer: rail5 <andrew@rail5.org>
-Installed-Size: 1426
+Installed-Size: 1437
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1), libstd-bpp
 Recommends: bpp-lsp
 Priority: optional
 Section: utils
-Filename: pool/main/b/bpp/bpp_0.8.3_amd64.deb
-Size: 402756
-SHA256: ca2bc8f33cbb1e0b487320ba8f8a66fee23e59a1dfac76cf7db4297720c2c032
-SHA1: ce561ead8c8cd65bb46c2c95b49abd6c02bb5238
-MD5sum: 37b303c0fa6b96d991967b8b04aa7667
+Filename: pool/main/b/bpp/bpp_0.8.4_amd64.deb
+Size: 408948
+SHA256: 397aa973c99271ad744856dbcd6f4502e41519ba4db52d4a914328375349d669
+SHA1: c09dea91421cebbfc0aa988b1a415c88243246cf
+MD5sum: 8f82dca029c98bc6f1c1eba143c98fd4
 Description: Bash++: Bash with classes
  Bash++ is a superset of Bash which adds support for object orientation
  .
@@ -70,19 +70,19 @@ Description: Bash++: Bash with classes
 
 Package: bpp-lsp
 Source: bpp
-Version: 0.8.3
+Version: 0.8.4
 Architecture: amd64
 Maintainer: rail5 <andrew@rail5.org>
-Installed-Size: 2348
+Installed-Size: 2361
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1), libstd-bpp
 Recommends: bpp
 Priority: optional
 Section: utils
-Filename: pool/main/b/bpp/bpp-lsp_0.8.3_amd64.deb
-Size: 697676
-SHA256: 927c20f04b0edca611e21ea748909d84cde2514dedd2fafe814f9833aecc581d
-SHA1: 8eb2518c9f89e976d7ab6970ede229c5ad75cdf4
-MD5sum: 88c79666cd32db01feba77261092337d
+Filename: pool/main/b/bpp/bpp-lsp_0.8.4_amd64.deb
+Size: 701252
+SHA256: 192c41dc31be61bf0c7e2ed7dc9dfedb3a865a55a1402fa53662496fce6226f0
+SHA1: d82486f6509d3ed9be6c563b6fdaedc904502a67
+MD5sum: 893488430ab003d0c9af1dba8349856c
 Description: Bash++ language server
  The Bash++ language server provides support for Bash++ files.
  It includes features such as code completion, diagnostics, and more.
@@ -95,17 +95,17 @@ Description: Bash++ language server
 
 Package: libstd-bpp
 Source: bpp
-Version: 0.8.3
+Version: 0.8.4
 Architecture: all
 Maintainer: rail5 <andrew@rail5.org>
-Installed-Size: 284
+Installed-Size: 290
 Priority: optional
 Section: utils
-Filename: pool/main/b/bpp/libstd-bpp_0.8.3_all.deb
-Size: 27356
-SHA256: df691be9832eba406eebd6de82a04cae8413f94b98473d414f89a138bb3da954
-SHA1: 753a7c041918893adec214ba76ee54a0a20b2e51
-MD5sum: c725ce478620cc2159b050821939b3f7
+Filename: pool/main/b/bpp/libstd-bpp_0.8.4_all.deb
+Size: 27668
+SHA256: 51b58443ce9a7dda82fbc9a1d7482cf775c01c5f295475f610aca7791710f25c
+SHA1: cc1cf1219bd368ad6e6a7e306d17d3b778a65853
+MD5sum: f8a5bad1e60fee0ffb20c93dd8e1dc21
 Description: Standard library for Bash++
  The standard library for Bash++ (common data structures and algorithms)
  .
