@@ -9,6 +9,7 @@ This repository contains the following packages for **amd64** and **arm64** arch
 | [autobuild](https://github.com/rail5/autobuild)               | Automatically builds & distributes Debian packages                    |
 | [autobuild-web](https://github.com/rail5/autobuild)           | A web front-end for autobuild                                         |
 | [polonius](https://github.com/rail5/polonius)                 | A text editor for very large files                                    |
+| [xgetopt-dev](https://github.com/rail5/xgetopt)               | Header-only C++20 library for parsing command-line options.           |
 | [liesel](https://github.com/rail5/liesel)                     | Converts PDFs to booklets *(terminal)*                                |
 | [bookthief](https://github.com/rail5/bookthief)               | Converts PDFs to booklets *(GUI)*                                     |
 | [ocrshot](https://github.com/rail5/ocrshot)                   | Copies text from videos & photos by screenshotting                    |
