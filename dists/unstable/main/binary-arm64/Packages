@@ -184,17 +184,17 @@ Description: Replaces MATE's engrampa with GNOME's file-roller
 
 Package: xgetopt-dev
 Source: xgetopt
-Version: 0.11.2
+Version: 0.12.0
 Architecture: all
 Maintainer: rail5 <andrew@rail5.org>
 Installed-Size: 36
 Priority: optional
 Section: utils
-Filename: pool/main/x/xgetopt/xgetopt-dev_0.11.2_all.deb
-Size: 9116
-SHA256: ec48d8042528c6170d165d648c688b4e99bae82d7c4d345dfa60147b118babb1
-SHA1: d66c6b8736f437f3f0fcbc953653bb15572d28e1
-MD5sum: ad56eeca13cc9ce803163a756fbfd45e
+Filename: pool/main/x/xgetopt/xgetopt-dev_0.12.0_all.deb
+Size: 9200
+SHA256: b60beee3a0e8e16dc28c57a45ff90c72b94f47d05f8293dc102f9406ee71aa95
+SHA1: c1b3e8e7dbc1fd4c48de96c87d89edbc43eb821c
+MD5sum: d34625a38c74ea849ae60853ea6a5fb7
 Description: Simple, header-only, constexpr-first C++20 command-line option parser
  XGetOpt is a lightweight, header-only C++20 library for parsing command-line
  options.
