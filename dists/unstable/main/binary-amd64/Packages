@@ -33,18 +33,18 @@ Description: Web-based front-end for autobuild
  Web-based UI to configure and run autobuild
 
 Package: bookthief
-Version: 12.0.0
+Version: 12.0.1
 Architecture: amd64
 Maintainer: rail5 <andrew@rail5.org>
 Installed-Size: 4462
-Depends: liesel (>= 10.1), libliesel0 (= 12.0.0), gnome-themes-extra, libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.12.0), libgtk2.0-0t64 (>= 2.24.0), libpango-1.0-0 (>= 1.18.0), libx11-6
+Depends: liesel (>= 10.1), libliesel0 (= 12.0.1), gnome-themes-extra, libatk1.0-0t64 (>= 1.12.4), libc6 (>= 2.34), libcairo2 (>= 1.2.4), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.12.0), libgtk2.0-0t64 (>= 2.24.0), libpango-1.0-0 (>= 1.18.0), libx11-6
 Priority: optional
 Section: utils
-Filename: pool/main/b/bookthief/bookthief_12.0.0_amd64.deb
-Size: 953468
-SHA256: a0da526a27dbf3371f3d6bb0fedb68f510c5257d00d9fb8735160b3b7d1052e1
-SHA1: b0311c42ff2d6febb205dde063bc0f3d7eb60bf0
-MD5sum: f9687bad72f88fe4c592cf0f50d59051
+Filename: pool/main/b/bookthief/bookthief_12.0.1_amd64.deb
+Size: 954644
+SHA256: 71f55676cb05fad35659cc2e2fea3f3d4f72b05b6348f6e8505b808fd8831e32
+SHA1: 4f741ce3e13e4f673d805043f71cbfc3528e05e0
+MD5sum: 68202bbf14decb7e713a85d0635a6bf0
 Description: GUI Front-end for Liesel
  Prepares PDFs to be home-printed
  in "pamphlet" style
@@ -95,18 +95,18 @@ Description: Bash++ language server
 
 Package: libliesel-dev
 Source: bookthief
-Version: 12.0.0
+Version: 12.0.1
 Architecture: amd64
 Maintainer: rail5 <andrew@rail5.org>
 Installed-Size: 22
-Depends: libliesel0 (= 12.0.0)
+Depends: libliesel0 (= 12.0.1)
 Priority: optional
 Section: utils
-Filename: pool/main/b/bookthief/libliesel-dev_12.0.0_amd64.deb
-Size: 6836
-SHA256: d64e9aabdb907f00f34e899e24b9188a74610433813b8220fb727c0a9a8dd8f4
-SHA1: bd6631123aa51c87a0eb03323e7afc8e21134386
-MD5sum: 7ee99d772b703046f4176f15a48ea07c
+Filename: pool/main/b/bookthief/libliesel-dev_12.0.1_amd64.deb
+Size: 6900
+SHA256: dd93ae3aaeab065cb7e1b8fc6bfbbd9e282fcbd90ce12146f2306852c94535cd
+SHA1: 55efd561e21e6c59216e354e103e35b663934f1a
+MD5sum: bcf1353595ae5657efaa1722a006eeb3
 Description: Liesel C ABI development files
  This package contains the development files
  (headers and symlink) for libliesel.so,
@@ -115,18 +115,18 @@ Description: Liesel C ABI development files
 
 Package: libliesel0
 Source: bookthief
-Version: 12.0.0
+Version: 12.0.1
 Architecture: amd64
 Maintainer: rail5 <andrew@rail5.org>
 Installed-Size: 235
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libgraphicsmagick++-q16-12t64 (>= 1.3.26-5~), libhpdf-2.3.0 (>= 2.3.0), libpoppler-cpp2 (>= 25.03.0), libstdc++6 (>= 13.1)
 Priority: optional
 Section: utils
-Filename: pool/main/b/bookthief/libliesel0_12.0.0_amd64.deb
-Size: 69744
-SHA256: 9979981cc7aa43feb851ca25dbba2a86b7ca33ad8dd6226d9db24eb5b898a128
-SHA1: 173323f88f224c1360455af1490a51f65353bf20
-MD5sum: 34d96b8dd9c5f2f2b56f335327a08509
+Filename: pool/main/b/bookthief/libliesel0_12.0.1_amd64.deb
+Size: 70164
+SHA256: d45f0f670071449d0e767666f31c01955b1762cbd16121acc161b13e9c0e2d89
+SHA1: 873a02425a5ba5b9cfb11c1143e88bc76c407863
+MD5sum: 33599e6a6a72ea0f4e9712c1cb42cf06
 Description: Liesel C ABI shared library
  Liesel is a command-line tool that prepares PDFs
  to be printed at home in "pamphlet" style, so that
@@ -158,18 +158,18 @@ Description: Standard library for Bash++
 
 Package: liesel
 Source: bookthief
-Version: 12.0.0
+Version: 12.0.1
 Architecture: amd64
 Maintainer: rail5 <andrew@rail5.org>
 Installed-Size: 163
-Depends: libliesel0 (= 12.0.0), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libgraphicsmagick++-q16-12t64 (>= 1.3.26-5~), libhpdf-2.3.0 (>= 2.3.0), libpoppler-cpp2 (>= 25.03.0), libstdc++6 (>= 13.1)
+Depends: libliesel0 (= 12.0.1), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libgraphicsmagick++-q16-12t64 (>= 1.3.26-5~), libhpdf-2.3.0 (>= 2.3.0), libpoppler-cpp2 (>= 25.03.0), libstdc++6 (>= 13.1)
 Priority: optional
 Section: utils
-Filename: pool/main/b/bookthief/liesel_12.0.0_amd64.deb
-Size: 62256
-SHA256: 2ac1f8f1cc8c5be035cf94241e11815b57390fd2775c358c603d7ee8d1ae65a5
-SHA1: 149c5d42da68181a29a5ebe166323fc509d88e5b
-MD5sum: 177ab3f3dbfa6df6dfbd3704c161462e
+Filename: pool/main/b/bookthief/liesel_12.0.1_amd64.deb
+Size: 62408
+SHA256: 7b6b4288359d81e15307f8ff6cb94692f2936c4126468a2ac1c97d40aea2dd55
+SHA1: 3514d89a390559fd5163648043b846bb8624e388
+MD5sum: f7e70557ded41fee935d5ca3df1f6b22
 Description: Converts PDFs to "pamphlet" style for home printing
  Liesel is a command-line tool that prepares PDFs
  to be printed at home in "pamphlet" style, so that
