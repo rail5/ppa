@@ -1,0 +1,171 @@
+Package: autobuild
+Version: 3.3.5
+Architecture: all
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 183
+Depends: sudo, pulseaudio-utils, build-essential, make, git, curl, devscripts, gpg, xz-utils, jq, reserialize, reprepro, sshpass, libarchive-tools, syslinux, syslinux-utils, cpio, genisoimage, qemu-system, qemu-utils, net-tools, dialog, socat, adduser
+Priority: optional
+Section: utils
+Filename: pool/main/a/autobuild/autobuild_3.3.5_all.deb
+Size: 68212
+SHA256: ce38a11f9b03326c44704c33893112322164fc1781e4dd88432a404e1f6f8888
+SHA1: be3700920737c655aa143cda40d2014c614f2b0c
+MD5sum: 7b1e6fda3dcd122cdbbef0aef1c0e1a4
+Description: Automatically build & distribute multi-arch Debian packages from source
+ Autobuild builds Debian packages from Git sources and distributes them
+
+Package: autobuild-web
+Source: autobuild
+Version: 3.3.5
+Architecture: all
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 189
+Depends: autobuild, reserialize, gpg, php-fpm, php-sqlite3, php-gregwar-captcha
+Recommends: apache2 | nginx
+Priority: optional
+Section: utils
+Filename: pool/main/a/autobuild/autobuild-web_3.3.5_all.deb
+Size: 44264
+SHA256: 48fc08d5d007e54c84cbb6b9348a5e9d363bc470468414630fb1e5bef681328a
+SHA1: 452a855effa707f534be8eca2643e43d5bb00304
+MD5sum: 7542aad957c14e887cf65ce17e11abe4
+Description: Web-based front-end for autobuild
+ Web-based UI to configure and run autobuild
+
+Package: bookthief
+Version: 11.3.1
+Architecture: arm64
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 3660
+Depends: liesel (>= 10.1), libc6, libgtk2.0-0, libx11-6, libglib2.0-0, libpango-1.0-0, libpangocairo-1.0-0, libfontconfig1, libxrender1, libxinerama1, libxi6, libxrandr2, libxcursor1, libxcomposite1, libxdamage1, libxfixes3, libxext6, libxcb1, libpangoft2-1.0-0, libfribidi0, libthai0, libharfbuzz0b, libpixman-1-0, libfreetype6, libpng16-16, libxcb-shm0, libxcb-render0, zlib1g, libmount1, libexpat1, libuuid1, libxau6, libxdmcp6, libdatrie1, libgraphite2-3, libblkid1, libbsd0
+Priority: optional
+Section: utils
+Filename: pool/main/b/bookthief/bookthief_11.3.1_arm64.deb
+Size: 810728
+SHA256: 7a8caa27ddd790363fa06ead95cdc86bd36b0da0e07343f96d7b22dc1c589d9a
+SHA1: d193fabde90e0e0c4ba32ee421a13bc8857c8cc7
+MD5sum: e928b0c2c6ba833e0dd4cd973123a2eb
+Description: GUI Front-end for Liesel
+ Prepares PDFs to be home-printed
+ in "pamphlet" style
+
+Package: bpp
+Version: 0.8.9
+Architecture: arm64
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 1348
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1), libstd-bpp
+Recommends: bpp-lsp
+Priority: optional
+Section: utils
+Filename: pool/main/b/bpp/bpp_0.8.9_arm64.deb
+Size: 359012
+SHA256: fdc726ec8c4c33e9be173331c7a9f564f40f40a4f084910508b2231bb11bda06
+SHA1: 981fc3a8025b93cf8f16a736f6fc2bbb545cdafa
+MD5sum: 9705cf6cef9328667bc2bcd1b0d0817c
+Description: Bash++: Bash with classes
+ Bash++ is a superset of Bash which adds support for object orientation
+ .
+ This package provides the Bash++ compiler.
+
+Package: bpp-lsp
+Source: bpp
+Version: 0.8.9
+Architecture: arm64
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 2208
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1), libstd-bpp
+Recommends: bpp
+Priority: optional
+Section: utils
+Filename: pool/main/b/bpp/bpp-lsp_0.8.9_arm64.deb
+Size: 606216
+SHA256: ead6f7dde60ee6e8dffa59257d3fca43bef60aeb0e11961941efc3db2c0ff781
+SHA1: 288eaf74c5c2fd80c3b8c3020fe91206a7fd9872
+MD5sum: 57825908971af1156c29cf9a9efabdef
+Description: Bash++ language server
+ The Bash++ language server provides support for Bash++ files.
+ It includes features such as code completion, diagnostics, and more.
+ This package is intended for use with editors that support the
+ language server protocol, such as Visual Studio Code.
+ .
+ This package includes the language server binary.
+ It does not include the Visual Studio Code extension, which is
+ available separately.
+
+Package: libstd-bpp
+Source: bpp
+Version: 0.8.9
+Architecture: all
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 293
+Priority: optional
+Section: utils
+Filename: pool/main/b/bpp/libstd-bpp_0.8.9_all.deb
+Size: 30268
+SHA256: bd2516e10da3bc8bb3199f93737edc7496d8c1df55187b7a8c7ad11b06a1a301
+SHA1: a7a1469ff08aa4647f513fd3908324e687d7dfd4
+MD5sum: e94105130ec8e830a5a370518e64a8e1
+Description: Standard library for Bash++
+ The standard library for Bash++ (common data structures and algorithms)
+ .
+ This package provides the standard library for Bash++,
+ which includes common data structures and algorithms.
+
+Package: liesel
+Version: 11.3.10
+Architecture: arm64
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 152
+Depends: libgraphicsmagick-q16-3 | libgraphicsmagick-q16-3t64, libgraphicsmagick++-q16-12 | libgraphicsmagick++-q16-12t64, libhpdf-2.3.0, libpoppler-cpp0v5 | libpoppler-cpp2, libfontconfig1, libc6, libgcc-s1, libstdc++6
+Priority: optional
+Section: utils
+Filename: pool/main/l/liesel/liesel_11.3.10_arm64.deb
+Size: 37372
+SHA256: 86f7284bb565e040cc96728d817e8a9ae9a7d58f111bc420e277887640cbf0fd
+SHA1: 4826e805ada27c4a124f79f4da141ff49eaa8998
+MD5sum: 46846133e5a5588cfa9cc1754a84bc1f
+Description: Converts PDFs to booklets
+ Liesel transforms ordinary PDFs into booklets for home or professional printing
+
+Package: polonius
+Version: 0.7.1
+Architecture: arm64
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 670
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libncurses6 (>= 6), libstdc++6 (>= 11), libtinfo6 (>= 6)
+Priority: optional
+Section: utils
+Filename: pool/main/p/polonius/polonius_0.7.1_arm64.deb
+Size: 129692
+SHA256: 091331e89bd25efaf6854bd452b247d27c1c04dc9eb6d4aec5e5b3d58385eeb4
+SHA1: 8126069ff898bf709b8fc71b6382c3e42ed73eb6
+MD5sum: aa08086a06701429bdbd2d03626c44c0
+Description: Text editor for very large files
+ Polonius is a text editor for very large files, designed to handle files
+ that are too large for traditional text editors. It edits files in-place
+ rather than loading them into memory, allowing it to work with files
+ that are larger than available RAM.
+ .
+ This package contains the polonius binary and its dependencies.
+
+Package: xgetopt-dev
+Source: xgetopt
+Version: 1.0.1
+Architecture: all
+Maintainer: rail5 <andrew@rail5.org>
+Installed-Size: 39
+Priority: optional
+Section: utils
+Filename: pool/main/x/xgetopt/xgetopt-dev_1.0.1_all.deb
+Size: 10576
+SHA256: 64e414f8f633b9f9d80f95ad633392486ea54e07556ec4d60e4c75b39f5aadc9
+SHA1: 56f0b505f1e230ac5267d844aef5e362d0de5997
+MD5sum: e3aff7e318246f192563fb3eafbdf080
+Description: Simple, header-only, constexpr-first C++20 command-line option parser
+ XGetOpt is a lightweight, header-only C++20 library for parsing command-line
+ options.
+ .
+ It supports both short and long options, optional and required arguments, and
+ generates help messages at compile time.
+
